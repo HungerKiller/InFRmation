@@ -1,4 +1,27 @@
-<!-- NG-ZORRO -->
-<a href="https://github.com/NG-ZORRO/ng-zorro-antd" target="_blank" style="display: flex;align-items: center;justify-content: center;height: 100%;width: 100%;">
-  <img height="300" src="https://img.alicdn.com/tfs/TB1X.qJJgHqK1RjSZFgXXa7JXXa-89-131.svg">
-</a>
+<nz-layout class="layout">
+  <nz-sider nzCollapsible nzBreakpoint="xxl" [nzCollapsedWidth]="0">
+    <div class="logo"></div>
+    <ul nz-menu nzTheme="dark" nzMode="inline">
+      <li nz-menu-item routerLink="/administration" routerLinkActive="active">
+        <i nz-icon nzType="table" nzTheme="outline"></i>
+        <span>Administration</span>
+      </li>
+      <li nz-submenu nzTitle="Administration" nzIcon="table">
+        <ul>
+          <li nz-menu-item routerLink="/administration/regions" routerLinkActive="active">Regions</li>
+          <li nz-menu-item routerLink="/administration/departements" routerLinkActive="active">Départements</li>
+          <li nz-menu-item routerLink="/administration/communes" routerLinkActive="active">Communes</li>
+        </ul>
+      </li>
+    </ul>
+  </nz-sider>
+  <nz-layout>
+    <nz-header></nz-header>
+    <nz-content>
+      <div class="inner-content">
+        <router-outlet></router-outlet>
+      </div>
+    </nz-content>
+    <nz-footer>InFRmation ©2021 By Shui</nz-footer>
+  </nz-layout>
+</nz-layout>
