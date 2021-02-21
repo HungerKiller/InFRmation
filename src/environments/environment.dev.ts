@@ -1,4 +1,4 @@
 export const environment = {
-  production: true,
+  production: false,
   apiAdministrationHost: 'https://geo.api.gouv.fr'
 };
