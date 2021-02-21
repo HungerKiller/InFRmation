@@ -3,7 +3,7 @@ import { Region } from "./Region";
 
 export class Commune {
     code!: string;
-    name!: string;
+    nom!: string;
     codesPostaux!: string[];
     codeDepartement!: string;
     codeRegion!: string;

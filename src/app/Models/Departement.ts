@@ -2,7 +2,7 @@ import { Region } from "./Region";
 
 export class Departement {
     code!: string;
-    name!: string;
+    nom!: string;
     codeRegion!: string;
     region!: Region;
 }

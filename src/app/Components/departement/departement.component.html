@@ -1,1 +1,22 @@
-<p>departement works!</p>
+<div nz-row [nzGutter]="{ xs: 8, sm: 16, md: 24, lg: 32, xl: 32, xxl: 32 }">
+    <div nz-col [nzSpan]="24">
+        <nz-table #basicTable [nzData]="departements" [nzShowSizeChanger]="true" [nzPageSize]="10"
+            [nzPageSizeOptions]="[10,20,50]" [nzShowTotal]="totalTemplate">
+            <thead>
+                <tr>
+                    <th>Code</th>
+                    <th>Nom</th>
+                    <th>Region Code</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let data of basicTable.data">
+                    <td>{{data.code}}</td>
+                    <td>{{data.nom}}</td>
+                    <td>{{data.codeRegion}}</td>
+                </tr>
+            </tbody>
+        </nz-table>
+        <ng-template #totalTemplate let-total> Total {{ total }} items</ng-template>
+    </div>
+</div>

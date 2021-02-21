@@ -1,26 +1,28 @@
-<div>
-    <nz-table #basicTable [nzData]="communes">
-        <thead>
-            <tr>
-                <th>Code</th>
-                <th>Name</th>
-                <th>Codes Postaux</th>
-                <th>Code Departement</th>
-                <th>Code Region</th>
-                <th>Population</th>
-                <th>Surface</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr *ngFor="let data of basicTable.data">
-                <td>{{data.code}}</td>
-                <td>{{data.name}}</td>
-                <td>{{data.codesPostaux}}</td>
-                <td>{{data.codeDepartement}}</td>
-                <td>{{data.codeRegion}}</td>
-                <td>{{data.population}}</td>
-                <td>{{data.surface}}</td>
-            </tr>
-        </tbody>
-    </nz-table>
+<div nz-row [nzGutter]="{ xs: 8, sm: 16, md: 24, lg: 32, xl: 32, xxl: 32 }">
+    <div nz-col [nzSpan]="24">
+        <nz-table #basicTable [nzData]="communes">
+            <thead>
+                <tr>
+                    <th>Code</th>
+                    <th>Nom</th>
+                    <th>Codes Postaux</th>
+                    <th>Code Departement</th>
+                    <th>Code Region</th>
+                    <th>Population</th>
+                    <th>Surface</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let data of basicTable.data">
+                    <td>{{data.code}}</td>
+                    <td>{{data.nom}}</td>
+                    <td>{{data.codesPostaux}}</td>
+                    <td>{{data.codeDepartement}}</td>
+                    <td>{{data.codeRegion}}</td>
+                    <td>{{data.population}}</td>
+                    <td>{{data.surface}}</td>
+                </tr>
+            </tbody>
+        </nz-table>
+    </div>
 </div>
