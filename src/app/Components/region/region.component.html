@@ -1,22 +1,25 @@
-<div echarts class="map" [options]="options"></div>
+
 
 <div nz-row [nzGutter]="{ xs: 8, sm: 16, md: 24, lg: 32, xl: 32, xxl: 32 }">
     <div nz-col [nzSpan]="24">
-        <nz-table #basicTable [nzData]="regions" [nzShowSizeChanger]="true" [nzPageSize]="10"
+        <nz-table #basicTable [nzData]="selectedData" [nzShowSizeChanger]="true" [nzPageSize]="10"
             [nzPageSizeOptions]="[10,20,50]" [nzShowTotal]="totalTemplate">
             <thead>
                 <tr>
                     <th>Code</th>
                     <th>Nom</th>
+                    <th>Population</th>
                 </tr>
             </thead>
             <tbody>
                 <tr *ngFor="let data of basicTable.data">
-                    <td>{{data.code}}</td>
-                    <td>{{data.nom}}</td>
+                    <td>{{data.region_code}}</td>
+                    <td>{{data.region_name}}</td>
+                    <td>{{data.together.total}}</td>
                 </tr>
             </tbody>
         </nz-table>
         <ng-template #totalTemplate let-total> Total {{ total }} items</ng-template>
     </div>
 </div>
+<div echarts class="map" [options]="options"></div>

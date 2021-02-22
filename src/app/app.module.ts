@@ -21,6 +21,7 @@ import { NzLayoutModule } from 'ng-zorro-antd/layout';
 import { NzIconModule } from 'ng-zorro-antd/icon';
 import { NzMenuModule } from 'ng-zorro-antd/menu';
 import { NzGridModule } from 'ng-zorro-antd/grid';
+import { NzDividerModule } from 'ng-zorro-antd/divider';
 
 registerLocaleData(fr);
 
@@ -43,6 +44,7 @@ registerLocaleData(fr);
     NzIconModule,
     NzMenuModule,
     NzGridModule,
+    NzDividerModule,
     NgxEchartsModule.forRoot({
       echarts: () => import('echarts'),
     })

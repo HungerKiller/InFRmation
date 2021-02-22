@@ -3,6 +3,7 @@ import { Region } from 'src/app/Models/Region';
 import { AdministrationService } from 'src/app/Services/administration.service';
 import { ECharts, EChartsOption } from 'echarts';
 import * as echarts from 'echarts/core';
+import { Population, PopulationOfArea } from 'src/app/Models/Population';
 
 @Component({
   selector: 'app-region',
@@ -11,26 +12,36 @@ import * as echarts from 'echarts/core';
 })
 export class RegionComponent implements OnInit {
 
-  regions: Region[] = [];
   loading: boolean = false;
 
-  chartInstance: any;
+  populations: Population[] = [];
+  years: number[] = [];
+  selectedYear: number = 2021;
+  selectedData: PopulationOfArea[] = [];
+
   options: any;
 
   constructor(private administrationService: AdministrationService) { }
 
   ngOnInit(): void {
-    this.getRegions();
+    this.getRegionsPopulation();
     this.buildOption();
   }
 
-  getRegions(): void {
+  getRegionsPopulation(): void {
     this.loading = true;
-    this.administrationService.getRegions()
+    this.administrationService.getRegionsPopulation()
       .subscribe({
         next: data => {
           this.loading = false;
-          this.regions = data;
+          this.populations = data;
+          // Set years
+          this.years = [];
+          this.populations.forEach(element => {
+            this.years.push(element.year);
+            if(element.year == this.selectedYear)
+              this.selectedData = element.areas_population;
+          });
         },
         error: error => {
           console.log("error", error.error);
@@ -39,7 +50,7 @@ export class RegionComponent implements OnInit {
   }
 
   buildOption(): void {
-    this.administrationService.getRegionGeoJson().subscribe({
+    this.administrationService.getRegionsGeoJson().subscribe({
       next: geoJson => {
         echarts.registerMap('FR', geoJson, {
           Guadeloupe: {
@@ -69,6 +80,15 @@ export class RegionComponent implements OnInit {
           },
         });
 
+        let dataPopulation: {
+          name: string;
+          value: number;
+        }[] = [];
+
+        this.selectedData.forEach(element => {
+          dataPopulation.push({name: element.region_name, value: element.together.total});
+        });
+
         this.options = {
           title: {
             text: 'Régions de la France'
@@ -91,8 +111,8 @@ export class RegionComponent implements OnInit {
           },
           visualMap: {
             left: 'right',
-            min: 800,
-            max: 50000,
+            min: 200000,
+            max: 13000000,
             text: ['High', 'Low'],
             realtime: false,
             calculable: true,
@@ -109,9 +129,7 @@ export class RegionComponent implements OnInit {
               label: {
                 show: true
               },
-              data: [
-                { name: 'Centre-Val de Loire', value: 31686.1 }
-              ]
+              data: dataPopulation
             }
           ]
         };

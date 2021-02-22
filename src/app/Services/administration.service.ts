@@ -4,6 +4,7 @@ import { Observable } from 'rxjs';
 import { ApiRoute } from '../api-routes';
 import { Commune } from '../Models/Commune';
 import { Departement } from '../Models/Departement';
+import { Population } from '../Models/Population';
 import { Region } from '../Models/Region';
 
 @Injectable({
@@ -48,8 +49,14 @@ export class AdministrationService {
     return this.http.get<Departement>(ApiRoute.REGIONS.getDepartementsOfRegion(code));
   }
 
-  getRegionGeoJson():Observable<any>{
+  // Get geo regions
+  getRegionsGeoJson():Observable<any>{
     // return this.http.get<any>('https://france-geojson.gregoiredavid.fr/repo/regions.geojson');
     return this.http.get<any>(`/assets/geoRegions.json`);
+  }
+
+  // Get population regions
+  getRegionsPopulation():Observable<Population[]>{
+    return this.http.get<Population[]>(`/assets/populationRegions.json`);
   }
 }
