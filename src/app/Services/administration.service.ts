@@ -47,4 +47,9 @@ export class AdministrationService {
   getDepartementsOfRegion(code: string): Observable<Departement> {
     return this.http.get<Departement>(ApiRoute.REGIONS.getDepartementsOfRegion(code));
   }
+
+  getRegionGeoJson():Observable<any>{
+    // return this.http.get<any>('https://france-geojson.gregoiredavid.fr/repo/regions.geojson');
+    return this.http.get<any>(`/assets/geoRegions.json`);
+  }
 }

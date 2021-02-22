@@ -15,6 +15,7 @@ import { RegionComponent } from './Components/region/region.component';
 import { DepartementComponent } from './Components/departement/departement.component';
 import { CommuneComponent } from './Components/commune/commune.component';
 
+import { NgxEchartsModule } from 'ngx-echarts';
 import { NzTableModule } from 'ng-zorro-antd/table';
 import { NzLayoutModule } from 'ng-zorro-antd/layout';
 import { NzIconModule } from 'ng-zorro-antd/icon';
@@ -41,7 +42,10 @@ registerLocaleData(fr);
     NzLayoutModule,
     NzIconModule,
     NzMenuModule,
-    NzGridModule
+    NzGridModule,
+    NgxEchartsModule.forRoot({
+      echarts: () => import('echarts'),
+    })
   ],
   providers: [{ provide: NZ_I18N, useValue: fr_FR }],
   bootstrap: [AppComponent]
