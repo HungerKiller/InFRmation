@@ -1,8 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Region } from 'src/app/Models/Region';
 import { AdministrationService } from 'src/app/Services/administration.service';
-import { ECharts, EChartsOption } from 'echarts';
-import * as echarts from 'echarts/core';
 import { Population, PopulationOfArea } from 'src/app/Models/Population';
 
 @Component({
@@ -12,36 +9,42 @@ import { Population, PopulationOfArea } from 'src/app/Models/Population';
 })
 export class RegionComponent implements OnInit {
 
-  loading: boolean = false;
-
+  // Data of all years
   populations: Population[] = [];
-  years: number[] = [];
-  selectedYear: number = 2021;
-  selectedData: PopulationOfArea[] = [];
+  // Data of selected year (1 year)
+  dataOfSelectedYear: PopulationOfArea[] = [];
+  // Data - array of {name, value} - for Map and Pie
+  name_value_array: { name: string; value: number; }[] = [];
+  // Data - array of region & array of {name, values} - for Bar
+  region_names: string[] = [];
+  type_values_array: { name: string; values: number[] }[] = [];
+  // Data - array of year & array of {name, values} - for Stached Area, Line
+  years: string[] = [];
+  year_gender_values_array: { name: string; values: number[] }[] = [];
+  // Data - array of year & array of {name, values} - for Stached Area
+  year_age_values_array: { name: string; values: number[] }[] = [];
 
-  options: any;
+
+  selectedYear: string = '2021';
+
+  genders: { label: string; value: string; }[] = [{ label: 'Ensemble', value: 'Ensemble' }, { label: 'Femmes', value: 'Femmes' }, { label: 'Hommes', value: 'Hommes' }];
+  selectedGender: string = 'Ensemble';
 
   constructor(private administrationService: AdministrationService) { }
 
   ngOnInit(): void {
     this.getRegionsPopulation();
-    this.buildOption();
   }
 
   getRegionsPopulation(): void {
-    this.loading = true;
     this.administrationService.getRegionsPopulation()
       .subscribe({
         next: data => {
-          this.loading = false;
           this.populations = data;
           // Set years
-          this.years = [];
-          this.populations.forEach(element => {
-            this.years.push(element.year);
-            if(element.year == this.selectedYear)
-              this.selectedData = element.areas_population;
-          });
+          this.years = this.populations.map(p => p.year);
+          // Set datas for display
+          this.setDisplayedDatas();
         },
         error: error => {
           console.log("error", error.error);
@@ -49,95 +52,61 @@ export class RegionComponent implements OnInit {
       });
   }
 
-  buildOption(): void {
-    this.administrationService.getRegionsGeoJson().subscribe({
-      next: geoJson => {
-        echarts.registerMap('FR', geoJson, {
-          Guadeloupe: {
-            left: -4.5,
-            top: 46.5,
-            width: 0.7
-          },
-          Martinique: {
-            left: -4.5,
-            top: 45.5,
-            width: 0.7
-          },
-          Guyane: {
-            left: -4.5,
-            top: 44.5,
-            width: 0.7
-          },
-          'La Réunion': {
-            left: -4.5,
-            top: 43.5,
-            width: 0.7
-          },
-          Mayotte: {
-            left: -4.5,
-            top: 42.5,
-            width: 0.7
-          },
-        });
-
-        let dataPopulation: {
-          name: string;
-          value: number;
-        }[] = [];
-
-        this.selectedData.forEach(element => {
-          dataPopulation.push({name: element.region_name, value: element.together.total});
-        });
-
-        this.options = {
-          title: {
-            text: 'Régions de la France'
-          },
-          tooltip: {
-            trigger: 'item',
-            transitionDuration: 0.2,
-            formatter: '{a}<br/>{b}: {c}'
-          },
-          toolbox: {
-            show: true,
-            // orient: 'vertical',
-            left: 'right',
-            top: 'top',
-            feature: {
-              dataView: { readOnly: false },
-              restore: {},
-              saveAsImage: {}
-            }
-          },
-          visualMap: {
-            left: 'right',
-            min: 200000,
-            max: 13000000,
-            text: ['High', 'Low'],
-            realtime: false,
-            calculable: true,
-            inRange: {
-              color: ['lightskyblue', 'yellow', 'orangered']
-            }
-          },
-          series: [
-            {
-              name: 'Régions de la France',
-              type: 'map',
-              map: 'FR',
-              roam: true,
-              label: {
-                show: true
-              },
-              data: dataPopulation
-            }
-          ]
-        };
-
-      },
-      error: error => {
-        console.log("error", error.error);
-      }
+  setDisplayedDatas(): void {
+    // Set data of selected year
+    this.dataOfSelectedYear = this.populations.find(element => element.year == this.selectedYear)?.areas_population!;
+    // Set data of all regions (together.total)
+    // todo
+    this.name_value_array = [];
+    this.dataOfSelectedYear.forEach(element => {
+      this.name_value_array.push({ name: element.region_name, value: element.together.total });
     });
+    // Set region names & type-values
+    let menValues: number[] = [];
+    let womenValues: number[] = [];
+    let totalValues: number[] = [];
+    this.region_names = [];
+    this.dataOfSelectedYear.forEach(element => {
+      this.region_names.push(element.region_name);
+      menValues.push(element.men.total);
+      womenValues.push(element.women.total);
+      totalValues.push(element.together.total);
+    });
+    this.type_values_array.push({ name: "Hommes", values: menValues });
+    this.type_values_array.push({ name: "Femmes", values: womenValues });
+    this.type_values_array.push({ name: "Ensemble", values: totalValues });
+    // Set year-gender-values
+    let menTotalValuesByYear: number[] = [];
+    let womenTotalValuesByYear: number[] = [];
+    this.populations.forEach(element => {
+      menTotalValuesByYear.push(element.areas_population[0].men.total);
+      womenTotalValuesByYear.push(element.areas_population[0].women.total);
+    });
+    this.year_gender_values_array.push({ name: "Hommes", values: menTotalValuesByYear });
+    this.year_gender_values_array.push({ name: "Femmes", values: womenTotalValuesByYear });
+    // Set year-age-values
+    let f0t19TotalValuesByYear: number[] = [];
+    let f20t39TotalValuesByYear: number[] = [];
+    let f40t59TotalValuesByYear: number[] = [];
+    let f60t74TotalValuesByYear: number[] = [];
+    let f75TotalValuesByYear: number[] = [];
+    this.populations.forEach(element => {
+      f0t19TotalValuesByYear.push(element.areas_population[0].together.between0and19);
+      f20t39TotalValuesByYear.push(element.areas_population[0].together.between20and39);
+      f40t59TotalValuesByYear.push(element.areas_population[0].together.between40and59);
+      f60t74TotalValuesByYear.push(element.areas_population[0].together.between60and74);
+      f75TotalValuesByYear.push(element.areas_population[0].together.greaterThan75);
+    });
+    this.year_age_values_array.push({ name: "0 à 19 ans", values: f0t19TotalValuesByYear });
+    this.year_age_values_array.push({ name: "20 à 39 ans", values: f20t39TotalValuesByYear });
+    this.year_age_values_array.push({ name: "40 à 59 ans", values: f40t59TotalValuesByYear });
+    this.year_age_values_array.push({ name: "60 à 74 ans", values: f60t74TotalValuesByYear });
+    this.year_age_values_array.push({ name: "75 ans et plus", values: f75TotalValuesByYear });
   }
+
+  onChange(): void {
+    this.setDisplayedDatas();
+  }
+
+  genderChanged(): void { }
 }

@@ -22,6 +22,17 @@ import { NzIconModule } from 'ng-zorro-antd/icon';
 import { NzMenuModule } from 'ng-zorro-antd/menu';
 import { NzGridModule } from 'ng-zorro-antd/grid';
 import { NzDividerModule } from 'ng-zorro-antd/divider';
+import { NzSelectModule } from 'ng-zorro-antd/select';
+import { NzTabsModule } from 'ng-zorro-antd/tabs';
+import { PieChartV1Component } from './Components/pie-chart-v1/pie-chart-v1.component';
+import { PieChartV2Component } from './Components/pie-chart-v2/pie-chart-v2.component';
+import { BarChartV1Component } from './Components/bar-chart-v1/bar-chart-v1.component';
+import { StackedAreaChartV1Component } from './Components/stacked-area-chart-v1/stacked-area-chart-v1.component';
+import { StackedAreaChartV2Component } from './Components/stacked-area-chart-v2/stacked-area-chart-v2.component';
+import { LineChartV1Component } from './Components/line-chart-v1/line-chart-v1.component';
+import { RadarChartV1Component } from './Components/radar-chart-v1/radar-chart-v1.component';
+import { MapChartRegionV1Component } from './Components/map-chart-region-v1/map-chart-region-v1.component';
+import { TableRegionV1Component } from './Components/table-region-v1/table-region-v1.component';
 
 registerLocaleData(fr);
 
@@ -31,7 +42,16 @@ registerLocaleData(fr);
     AdministrationComponent,
     RegionComponent,
     DepartementComponent,
-    CommuneComponent
+    CommuneComponent,
+    PieChartV1Component,
+    PieChartV2Component,
+    BarChartV1Component,
+    StackedAreaChartV1Component,
+    StackedAreaChartV2Component,
+    LineChartV1Component,
+    RadarChartV1Component,
+    MapChartRegionV1Component,
+    TableRegionV1Component
   ],
   imports: [
     BrowserModule,
@@ -45,6 +65,8 @@ registerLocaleData(fr);
     NzMenuModule,
     NzGridModule,
     NzDividerModule,
+    NzSelectModule,
+    NzTabsModule,
     NgxEchartsModule.forRoot({
       echarts: () => import('echarts'),
     })

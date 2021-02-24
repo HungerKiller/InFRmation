@@ -1,5 +1,5 @@
 export class Population {
-    year!: number;
+    year!: string;
     areas_population!: PopulationOfArea[];
 }
 
