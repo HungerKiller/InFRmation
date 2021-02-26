@@ -59,6 +59,7 @@ export class LineChartV1Component implements OnChanges {
       },
       series: this.data.map(v => ({
         name: v.name,
+        showSymbol: false,
         type: 'line',
         data: v.values
       }))
