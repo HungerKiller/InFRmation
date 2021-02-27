@@ -59,4 +59,9 @@ export class AdministrationService {
   getRegionsPopulation():Observable<Population[]>{
     return this.http.get<Population[]>(`/assets/populationRegions.json`);
   }
+
+  // Get population France
+  getFrancePopulation():Observable<Population[]>{
+    return this.http.get<Population[]>(`/assets/populationFrance.json`);
+  }
 }

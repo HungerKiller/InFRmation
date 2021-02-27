@@ -1,0 +1,34 @@
+<div nz-row>
+    <div class="col1" nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="6" nzXl="6" nzXxl="6">
+        <app-pie-chart-v1 title="Population de l'année 2020" [data]="gender_population_array">
+        </app-pie-chart-v1>
+    </div>
+    <div class="col1" nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="6" nzXl="6" nzXxl="6">
+        <app-pie-chart-v2 title="Population de l'année 2020" [data]="age_population_array">
+        </app-pie-chart-v2>
+    </div>
+    <div class="col1" nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="12" nzXl="12" nzXxl="12">
+        <app-bar-chart-v1 title="Population de la France par sexe" [xAxis_lables]="years"
+            [data]="gender_populations_with_total_array"></app-bar-chart-v1>
+    </div>
+    <div class="col1" nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="24" nzXl="24" nzXxl="24">
+        <app-bar-chart-v1 title="Population de la France par âge" [xAxis_lables]="years"
+            [data]="age_populations_with_total_array"></app-bar-chart-v1>
+    </div>
+    <div class="col1" nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="12" nzXl="12" nzXxl="12">
+        <app-line-chart-v1 title="Population de la France par sexe" [xAxis_lables]="years"
+            [data]="gender_populations_array"></app-line-chart-v1>
+    </div>
+    <div class="col1" nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="12" nzXl="12" nzXxl="12">
+        <app-line-chart-v1 title="Population de la France par âge" [xAxis_lables]="years"
+            [data]="age_populations_array"></app-line-chart-v1>
+    </div>
+    <div class="col1" nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="12" nzXl="12" nzXxl="12">
+        <app-stacked-area-chart-v1 title="Population de la France par sexe" [xAxis_lables]="years"
+            [data]="gender_populations_array"></app-stacked-area-chart-v1>
+    </div>
+    <div class="col1" nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="12" nzXl="12" nzXxl="12">
+        <app-stacked-area-chart-v2 title="Population de la France par âge" [xAxis_lables]="years"
+            [data]="age_populations_array"></app-stacked-area-chart-v2>
+    </div>
+</div>

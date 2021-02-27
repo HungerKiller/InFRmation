@@ -33,6 +33,7 @@ import { LineChartV1Component } from './Components/line-chart-v1/line-chart-v1.c
 import { RadarChartV1Component } from './Components/radar-chart-v1/radar-chart-v1.component';
 import { MapChartRegionV1Component } from './Components/map-chart-region-v1/map-chart-region-v1.component';
 import { TableRegionV1Component } from './Components/table-region-v1/table-region-v1.component';
+import { ViewFranceComponent } from './Components/view-france/view-france.component';
 
 registerLocaleData(fr);
 
@@ -51,7 +52,8 @@ registerLocaleData(fr);
     LineChartV1Component,
     RadarChartV1Component,
     MapChartRegionV1Component,
-    TableRegionV1Component
+    TableRegionV1Component,
+    ViewFranceComponent
   ],
   imports: [
     BrowserModule,

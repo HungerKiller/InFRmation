@@ -5,23 +5,15 @@
 <div nz-row>
     <div class="col1" nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="10" nzXl="10" nzXxl="10">
         <div nz-row>
-            <div class="col1" nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="8" nzXl="8" nzXxl="8">
+            <div class="col1" nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="12" nzXl="12" nzXxl="12">
                 <app-pie-chart-v1 *ngIf="name_value_array" title="Population de la France par région"
                     [data]="name_value_array"></app-pie-chart-v1>
             </div>
-            <div class="col1" nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="8" nzXl="8" nzXxl="8">
+            <div class="col1" nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="12" nzXl="12" nzXxl="12">
                 <app-pie-chart-v2 *ngIf="name_value_array" title="Population de la France par région"
                     [data]="name_value_array"></app-pie-chart-v2>
             </div>
-            <div class="col1" nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="8" nzXl="8" nzXxl="8">
-                <app-pie-chart-v2 *ngIf="name_value_array" title="Population de la France par région"
-                    [data]="name_value_array"></app-pie-chart-v2>
-            </div>
-            <div class="col1" nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="12" nzXl="12" nzXxl="12">
-                <app-line-chart-v1 title="Population de la France par région" [xAxis_lables]="years"
-                    [data]="year_gender_values_array"></app-line-chart-v1>
-            </div>
-            <div class="col1" nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="12" nzXl="12" nzXxl="12">
+            <div class="col1" nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="24" nzXl="24" nzXxl="24">
                 <app-line-chart-v1 title="Population de la France par région" [xAxis_lables]="years"
                     [data]="year_gender_values_array"></app-line-chart-v1>
             </div>
@@ -36,10 +28,6 @@
             <div class="col1" nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="24" nzXl="24" nzXxl="24">
                 <app-stacked-area-chart-v1 title="Population de la France par région" [xAxis_lables]="years"
                     [data]="year_age_values_array"></app-stacked-area-chart-v1>
-            </div>
-            <div class="col1" nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="24" nzXl="24" nzXxl="24">
-                <app-stacked-area-chart-v2 title="Population de la France par région" [xAxis_lables]="years"
-                    [data]="year_age_values_array"></app-stacked-area-chart-v2>
             </div>
         </div>
     </div>

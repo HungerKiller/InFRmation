@@ -1,1 +1,18 @@
-<p>table-region-v1 works!</p>
+<nz-table #basicTable [nzData]="data" [nzShowSizeChanger]="true" [nzPageSize]="10"
+    [nzPageSizeOptions]="[10,20,50]" [nzShowTotal]="totalTemplate">
+    <thead>
+        <tr>
+            <th>Code</th>
+            <th>Nom</th>
+            <th>Population</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let data of basicTable.data">
+            <td>{{data.region_code}}</td>
+            <td>{{data.region_name}}</td>
+            <td>{{data.together.total}}</td>
+        </tr>
+    </tbody>
+</nz-table>
+<ng-template #totalTemplate let-total> Total {{ total }} items</ng-template>

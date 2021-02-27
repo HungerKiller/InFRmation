@@ -4,6 +4,7 @@ import { AdministrationComponent } from './Components/administration/administrat
 import { CommuneComponent } from './Components/commune/commune.component';
 import { DepartementComponent } from './Components/departement/departement.component';
 import { RegionComponent } from './Components/region/region.component';
+import { ViewFranceComponent } from './Components/view-france/view-france.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/administration', pathMatch: 'full' },
@@ -13,12 +14,16 @@ const routes: Routes = [
     component: AdministrationComponent, // this is the component with the <router-outlet> in the template
     children: [
       {
-        path: 'regions', // child route path
-        component: RegionComponent // child route component that the router renders
+        path: 'france', // child route path
+        component: ViewFranceComponent // child route component that the router renders
+      },
+      {
+        path: 'regions',
+        component: RegionComponent
       },
       {
         path: 'departements',
-        component: DepartementComponent // another child route component that the router renders
+        component: DepartementComponent
       },
       {
         path: 'communes',

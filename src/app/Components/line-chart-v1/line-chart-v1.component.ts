@@ -25,7 +25,8 @@ export class LineChartV1Component implements OnChanges {
   buildOption(): void {
     this.option = {
       title: {
-        text: this.title
+        text: this.title,
+        left: 'center'
       },
       tooltip: {
         trigger: 'axis',
@@ -37,7 +38,8 @@ export class LineChartV1Component implements OnChanges {
         }
       },
       legend: {
-        data: this.data.map(v => v.name)
+        data: this.data.map(v => v.name),
+        top: 30
       },
       toolbox: {
         feature: {

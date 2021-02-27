@@ -25,7 +25,8 @@ export class BarChartV1Component implements OnChanges {
   buildOption(): void {
     this.option = {
       title: {
-        text: this.title
+        text: this.title,
+        left: 'center'
       },
       tooltip: {
         trigger: 'axis',
@@ -36,6 +37,11 @@ export class BarChartV1Component implements OnChanges {
       legend: {
         data: this.data.map(v => v.name),
         top: 30
+      },
+      toolbox: {
+        feature: {
+          saveAsImage: {}
+        }
       },
       grid: {
         left: '3%',

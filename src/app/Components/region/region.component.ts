@@ -13,8 +13,11 @@ export class RegionComponent implements OnInit {
   populations: Population[] = [];
   // Data of selected year (1 year)
   dataOfSelectedYear: PopulationOfArea[] = [];
+
+
   // Data - array of {name, value} - for Map and Pie
   name_value_array: { name: string; value: number; }[] = [];
+
   // Data - array of region & array of {name, values} - for Bar
   region_names: string[] = [];
   type_values_array: { name: string; values: number[] }[] = [];
@@ -55,6 +58,9 @@ export class RegionComponent implements OnInit {
   setDisplayedDatas(): void {
     // Set data of selected year
     this.dataOfSelectedYear = this.populations.find(element => element.year == this.selectedYear)?.areas_population!;
+    
+    
+    
     // Set data of all regions (together.total)
     // todo
     this.name_value_array = [];
@@ -95,7 +101,7 @@ export class RegionComponent implements OnInit {
       f20t39TotalValuesByYear.push(element.areas_population[0].together.between20and39);
       f40t59TotalValuesByYear.push(element.areas_population[0].together.between40and59);
       f60t74TotalValuesByYear.push(element.areas_population[0].together.between60and74);
-      f75TotalValuesByYear.push(element.areas_population[0].together.greaterThan75);
+      f75TotalValuesByYear.push(element.areas_population[0].together.greaterthan75);
     });
     this.year_age_values_array.push({ name: "0 à 19 ans", values: f0t19TotalValuesByYear });
     this.year_age_values_array.push({ name: "20 à 39 ans", values: f20t39TotalValuesByYear });

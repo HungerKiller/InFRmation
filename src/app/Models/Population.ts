@@ -16,6 +16,6 @@ export class PopulationByAge {
     between20and39!: number;
     between40and59!: number;
     between60and74!: number;
-    greaterThan75!: number;
+    greaterthan75!: number;
     total!: number;
 }

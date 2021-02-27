@@ -33,6 +33,11 @@ export class PieChartV1Component implements OnChanges {
         top: 20,
         bottom: 20
       },
+      toolbox: {
+        feature: {
+          saveAsImage: {}
+        }
+      },
       tooltip: {
         trigger: 'item',
         formatter: '{a} <br/>{b}: {c} ({d}%)'

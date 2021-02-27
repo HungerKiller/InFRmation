@@ -1,0 +1,3345 @@
+[
+    {
+        "year": 1975,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 16888065,
+                    "between20and39": 14486874,
+                    "between40and59": 11552754,
+                    "between60and74": 7015885,
+                    "greaterthan75": 2656422,
+                    "total": 52600000
+                },
+                "men": {
+                    "between0and19": 8623235,
+                    "between20and39": 7458341,
+                    "between40and59": 5730276,
+                    "between60and74": 3106810,
+                    "greaterthan75": 848943,
+                    "total": 25767605
+                },
+                "women": {
+                    "between0and19": 8264830,
+                    "between20and39": 7028533,
+                    "between40and59": 5822478,
+                    "between60and74": 3909075,
+                    "greaterthan75": 1807479,
+                    "total": 26832395
+                }
+            }
+        ]
+    },
+    {
+        "year": 1976,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 16809211,
+                    "between20and39": 14678387,
+                    "between40and59": 11726623,
+                    "between60and74": 6861583,
+                    "greaterthan75": 2722534,
+                    "total": 52798338
+                },
+                "men": {
+                    "between0and19": 8587539,
+                    "between20and39": 7537916,
+                    "between40and59": 5812102,
+                    "between60and74": 3030414,
+                    "greaterthan75": 878593,
+                    "total": 25846564
+                },
+                "women": {
+                    "between0and19": 8221672,
+                    "between20and39": 7140471,
+                    "between40and59": 5914521,
+                    "between60and74": 3831169,
+                    "greaterthan75": 1843941,
+                    "total": 26951774
+                }
+            }
+        ]
+    },
+    {
+        "year": 1977,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 16703587,
+                    "between20and39": 14901863,
+                    "between40and59": 11989832,
+                    "between60and74": 6613226,
+                    "greaterthan75": 2810497,
+                    "total": 53019005
+                },
+                "men": {
+                    "between0and19": 8535010,
+                    "between20and39": 7632785,
+                    "between40and59": 5942117,
+                    "between60and74": 2912471,
+                    "greaterthan75": 916194,
+                    "total": 25938577
+                },
+                "women": {
+                    "between0and19": 8168577,
+                    "between20and39": 7269078,
+                    "between40and59": 6047715,
+                    "between60and74": 3700755,
+                    "greaterthan75": 1894303,
+                    "total": 27080428
+                }
+            }
+        ]
+    },
+    {
+        "year": 1978,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 16612734,
+                    "between20and39": 15132004,
+                    "between40and59": 12226703,
+                    "between60and74": 6389578,
+                    "greaterthan75": 2910547,
+                    "total": 53271566
+                },
+                "men": {
+                    "between0and19": 8490408,
+                    "between20and39": 7732374,
+                    "between40and59": 6058665,
+                    "between60and74": 2807689,
+                    "greaterthan75": 957589,
+                    "total": 26046725
+                },
+                "women": {
+                    "between0and19": 8122326,
+                    "between20and39": 7399630,
+                    "between40and59": 6168038,
+                    "between60and74": 3581889,
+                    "greaterthan75": 1952958,
+                    "total": 27224841
+                }
+            }
+        ]
+    },
+    {
+        "year": 1979,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 16510923,
+                    "between20and39": 15351260,
+                    "between40and59": 12414968,
+                    "between60and74": 6210532,
+                    "greaterthan75": 2993390,
+                    "total": 53481073
+                },
+                "men": {
+                    "between0and19": 8439834,
+                    "between20and39": 7827545,
+                    "between40and59": 6150728,
+                    "between60and74": 2724454,
+                    "greaterthan75": 990964,
+                    "total": 26133525
+                },
+                "women": {
+                    "between0and19": 8071089,
+                    "between20and39": 7523715,
+                    "between40and59": 6264240,
+                    "between60and74": 3486078,
+                    "greaterthan75": 2002426,
+                    "total": 27347548
+                }
+            }
+        ]
+    },
+    {
+        "year": 1980,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 16418623,
+                    "between20and39": 15594098,
+                    "between40and59": 12561019,
+                    "between60and74": 6079033,
+                    "greaterthan75": 3078614,
+                    "total": 53731387
+                },
+                "men": {
+                    "between0and19": 8394805,
+                    "between20and39": 7936304,
+                    "between40and59": 6221814,
+                    "between60and74": 2666461,
+                    "greaterthan75": 1024405,
+                    "total": 26243789
+                },
+                "women": {
+                    "between0and19": 8023818,
+                    "between20and39": 7657794,
+                    "between40and59": 6339205,
+                    "between60and74": 3412572,
+                    "greaterthan75": 2054209,
+                    "total": 27487598
+                }
+            }
+        ]
+    },
+    {
+        "year": 1981,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 16379718,
+                    "between20and39": 15880220,
+                    "between40and59": 12419113,
+                    "between60and74": 6189906,
+                    "greaterthan75": 3159673,
+                    "total": 54028630
+                },
+                "men": {
+                    "between0and19": 8377919,
+                    "between20and39": 8066211,
+                    "between40and59": 6156396,
+                    "between60and74": 2723124,
+                    "greaterthan75": 1057326,
+                    "total": 26380976
+                },
+                "women": {
+                    "between0and19": 8001799,
+                    "between20and39": 7814009,
+                    "between40and59": 6262717,
+                    "between60and74": 3466782,
+                    "greaterthan75": 2102347,
+                    "total": 27647654
+                }
+            }
+        ]
+    },
+    {
+        "year": 1982,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 16327004,
+                    "between20and39": 16217996,
+                    "between40and59": 12269187,
+                    "between60and74": 6289344,
+                    "greaterthan75": 3231469,
+                    "total": 54335000
+                },
+                "men": {
+                    "between0and19": 8354781,
+                    "between20and39": 8225628,
+                    "between40and59": 6090546,
+                    "between60and74": 2773693,
+                    "greaterthan75": 1085552,
+                    "total": 26530200
+                },
+                "women": {
+                    "between0and19": 7972223,
+                    "between20and39": 7992368,
+                    "between40and59": 6178641,
+                    "between60and74": 3515651,
+                    "greaterthan75": 2145917,
+                    "total": 27804800
+                }
+            }
+        ]
+    },
+    {
+        "year": 1983,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 16302740,
+                    "between20and39": 16483945,
+                    "between40and59": 12184192,
+                    "between60and74": 6371012,
+                    "greaterthan75": 3308095,
+                    "total": 54649984
+                },
+                "men": {
+                    "between0and19": 8343002,
+                    "between20and39": 8343403,
+                    "between40and59": 6052305,
+                    "between60and74": 2817830,
+                    "greaterthan75": 1114976,
+                    "total": 26671516
+                },
+                "women": {
+                    "between0and19": 7959738,
+                    "between20and39": 8140542,
+                    "between40and59": 6131887,
+                    "between60and74": 3553182,
+                    "greaterthan75": 2193119,
+                    "total": 27978468
+                }
+            }
+        ]
+    },
+    {
+        "year": 1984,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 16199216,
+                    "between20and39": 16733175,
+                    "between40and59": 12144340,
+                    "between60and74": 6438045,
+                    "greaterthan75": 3380078,
+                    "total": 54894854
+                },
+                "men": {
+                    "between0and19": 8290504,
+                    "between20and39": 8451935,
+                    "between40and59": 6036381,
+                    "between60and74": 2855847,
+                    "greaterthan75": 1142611,
+                    "total": 26777278
+                },
+                "women": {
+                    "between0and19": 7908712,
+                    "between20and39": 8281240,
+                    "between40and59": 6107959,
+                    "between60and74": 3582198,
+                    "greaterthan75": 2237467,
+                    "total": 28117576
+                }
+            }
+        ]
+    },
+    {
+        "year": 1985,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 16091820,
+                    "between20and39": 16980965,
+                    "between40and59": 12118273,
+                    "between60and74": 6506109,
+                    "greaterthan75": 3460136,
+                    "total": 55157303
+                },
+                "men": {
+                    "between0and19": 8235204,
+                    "between20and39": 8561504,
+                    "between40and59": 6027146,
+                    "between60and74": 2893839,
+                    "greaterthan75": 1172427,
+                    "total": 26890120
+                },
+                "women": {
+                    "between0and19": 7856616,
+                    "between20and39": 8419461,
+                    "between40and59": 6091127,
+                    "between60and74": 3612270,
+                    "greaterthan75": 2287709,
+                    "total": 28267183
+                }
+            }
+        ]
+    },
+    {
+        "year": 1986,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 15999391,
+                    "between20and39": 17207202,
+                    "between40and59": 12088981,
+                    "between60and74": 6585146,
+                    "greaterthan75": 3530518,
+                    "total": 55411238
+                },
+                "men": {
+                    "between0and19": 8187226,
+                    "between20and39": 8662318,
+                    "between40and59": 6016577,
+                    "between60and74": 2937594,
+                    "greaterthan75": 1198625,
+                    "total": 27002340
+                },
+                "women": {
+                    "between0and19": 7812165,
+                    "between20and39": 8544884,
+                    "between40and59": 6072404,
+                    "between60and74": 3647552,
+                    "greaterthan75": 2331893,
+                    "total": 28408898
+                }
+            }
+        ]
+    },
+    {
+        "year": 1987,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 15919634,
+                    "between20and39": 17234552,
+                    "between40and59": 12261117,
+                    "between60and74": 6680584,
+                    "greaterthan75": 3585893,
+                    "total": 55681780
+                },
+                "men": {
+                    "between0and19": 8146606,
+                    "between20and39": 8663004,
+                    "between40and59": 6108247,
+                    "between60and74": 2988412,
+                    "greaterthan75": 1219491,
+                    "total": 27125760
+                },
+                "women": {
+                    "between0and19": 7773028,
+                    "between20and39": 8571548,
+                    "between40and59": 6152870,
+                    "between60and74": 3692172,
+                    "greaterthan75": 2366402,
+                    "total": 28556020
+                }
+            }
+        ]
+    },
+    {
+        "year": 1988,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 15852690,
+                    "between20and39": 17203209,
+                    "between40and59": 12481960,
+                    "between60and74": 6751421,
+                    "greaterthan75": 3676862,
+                    "total": 55966142
+                },
+                "men": {
+                    "between0and19": 8110575,
+                    "between20and39": 8635588,
+                    "between40and59": 6225048,
+                    "between60and74": 3029992,
+                    "greaterthan75": 1254428,
+                    "total": 27255631
+                },
+                "women": {
+                    "between0and19": 7742115,
+                    "between20and39": 8567621,
+                    "between40and59": 6256912,
+                    "between60and74": 3721429,
+                    "greaterthan75": 2422434,
+                    "total": 28710511
+                }
+            }
+        ]
+    },
+    {
+        "year": 1989,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 15793067,
+                    "between20and39": 17166752,
+                    "between40and59": 12708635,
+                    "between60and74": 6837855,
+                    "greaterthan75": 3763501,
+                    "total": 56269810
+                },
+                "men": {
+                    "between0and19": 8079276,
+                    "between20and39": 8606209,
+                    "between40and59": 6344907,
+                    "between60and74": 3079672,
+                    "greaterthan75": 1288550,
+                    "total": 27398614
+                },
+                "women": {
+                    "between0and19": 7713791,
+                    "between20and39": 8560543,
+                    "between40and59": 6363728,
+                    "between60and74": 3758183,
+                    "greaterthan75": 2474951,
+                    "total": 28871196
+                }
+            }
+        ]
+    },
+    {
+        "year": 1990,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 15719647,
+                    "between20and39": 17153178,
+                    "between40and59": 12940589,
+                    "between60and74": 6925168,
+                    "greaterthan75": 3838418,
+                    "total": 56577000
+                },
+                "men": {
+                    "between0and19": 8039675,
+                    "between20and39": 8591227,
+                    "between40and59": 6464716,
+                    "between60and74": 3130994,
+                    "greaterthan75": 1317388,
+                    "total": 27544000
+                },
+                "women": {
+                    "between0and19": 7679972,
+                    "between20and39": 8561951,
+                    "between40and59": 6475873,
+                    "between60and74": 3794174,
+                    "greaterthan75": 2521030,
+                    "total": 29033000
+                }
+            },
+            {
+                "region_code": "DOM",
+                "region_name": "DOM",
+                "together": {
+                    "between0and19": 545774,
+                    "between20and39": 479333,
+                    "between40and59": 252001,
+                    "between60and74": 105286,
+                    "greaterthan75": 39035,
+                    "total": 1421429
+                },
+                "men": {
+                    "between0and19": 276467,
+                    "between20and39": 236496,
+                    "between40and59": 123248,
+                    "between60and74": 48071,
+                    "greaterthan75": 14248,
+                    "total": 698530
+                },
+                "women": {
+                    "between0and19": 269307,
+                    "between20and39": 242837,
+                    "between40and59": 128753,
+                    "between60and74": 57215,
+                    "greaterthan75": 24787,
+                    "total": 722899
+                }
+            },
+            {
+                "region_code": "France",
+                "region_name": "France métropolitaine et DOM",
+                "together": {
+                    "between0and19": 16265421,
+                    "between20and39": 17632511,
+                    "between40and59": 13192590,
+                    "between60and74": 7030454,
+                    "greaterthan75": 3877453,
+                    "total": 57998429
+                },
+                "men": {
+                    "between0and19": 8316142,
+                    "between20and39": 8827723,
+                    "between40and59": 6587964,
+                    "between60and74": 3179065,
+                    "greaterthan75": 1331636,
+                    "total": 28242530
+                },
+                "women": {
+                    "between0and19": 7949279,
+                    "between20and39": 8804788,
+                    "between40and59": 6604626,
+                    "between60and74": 3851389,
+                    "greaterthan75": 2545817,
+                    "total": 29755899
+                }
+            }
+        ]
+    },
+    {
+        "year": 1991,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 15605455,
+                    "between20and39": 17126616,
+                    "between40and59": 13153847,
+                    "between60and74": 7169783,
+                    "greaterthan75": 3784960,
+                    "total": 56840661
+                },
+                "men": {
+                    "between0and19": 7981366,
+                    "between20and39": 8572187,
+                    "between40and59": 6576222,
+                    "between60and74": 3244929,
+                    "greaterthan75": 1293652,
+                    "total": 27668356
+                },
+                "women": {
+                    "between0and19": 7624089,
+                    "between20and39": 8554429,
+                    "between40and59": 6577625,
+                    "between60and74": 3924854,
+                    "greaterthan75": 2491308,
+                    "total": 29172305
+                }
+            },
+            {
+                "region_code": "DOM",
+                "region_name": "DOM",
+                "together": {
+                    "between0and19": 557470,
+                    "between20and39": 479418,
+                    "between40and59": 257167,
+                    "between60and74": 106142,
+                    "greaterthan75": 39277,
+                    "total": 1439474
+                },
+                "men": {
+                    "between0and19": 282422,
+                    "between20and39": 235844,
+                    "between40and59": 125576,
+                    "between60and74": 48355,
+                    "greaterthan75": 14312,
+                    "total": 706509
+                },
+                "women": {
+                    "between0and19": 275048,
+                    "between20and39": 243574,
+                    "between40and59": 131591,
+                    "between60and74": 57787,
+                    "greaterthan75": 24965,
+                    "total": 732965
+                }
+            },
+            {
+                "region_code": "France",
+                "region_name": "France métropolitaine et DOM",
+                "together": {
+                    "between0and19": 16162925,
+                    "between20and39": 17606034,
+                    "between40and59": 13411014,
+                    "between60and74": 7275925,
+                    "greaterthan75": 3824237,
+                    "total": 58280135
+                },
+                "men": {
+                    "between0and19": 8263788,
+                    "between20and39": 8808031,
+                    "between40and59": 6701798,
+                    "between60and74": 3293284,
+                    "greaterthan75": 1307964,
+                    "total": 28374865
+                },
+                "women": {
+                    "between0and19": 7899137,
+                    "between20and39": 8798003,
+                    "between40and59": 6709216,
+                    "between60and74": 3982641,
+                    "greaterthan75": 2516273,
+                    "total": 29905270
+                }
+            }
+        ]
+    },
+    {
+        "year": 1992,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 15473515,
+                    "between20and39": 17163472,
+                    "between40and59": 13342685,
+                    "between60and74": 7446661,
+                    "greaterthan75": 3684200,
+                    "total": 57110533
+                },
+                "men": {
+                    "between0and19": 7915208,
+                    "between20and39": 8585787,
+                    "between40and59": 6672423,
+                    "between60and74": 3370112,
+                    "greaterthan75": 1251591,
+                    "total": 27795121
+                },
+                "women": {
+                    "between0and19": 7558307,
+                    "between20and39": 8577685,
+                    "between40and59": 6670262,
+                    "between60and74": 4076549,
+                    "greaterthan75": 2432609,
+                    "total": 29315412
+                }
+            },
+            {
+                "region_code": "DOM",
+                "region_name": "DOM",
+                "together": {
+                    "between0and19": 560010,
+                    "between20and39": 484523,
+                    "between40and59": 266604,
+                    "between60and74": 108652,
+                    "greaterthan75": 40915,
+                    "total": 1460704
+                },
+                "men": {
+                    "between0and19": 283722,
+                    "between20and39": 237787,
+                    "between40and59": 130019,
+                    "between60and74": 49623,
+                    "greaterthan75": 14893,
+                    "total": 716044
+                },
+                "women": {
+                    "between0and19": 276288,
+                    "between20and39": 246736,
+                    "between40and59": 136585,
+                    "between60and74": 59029,
+                    "greaterthan75": 26022,
+                    "total": 744660
+                }
+            },
+            {
+                "region_code": "France",
+                "region_name": "France métropolitaine et DOM",
+                "together": {
+                    "between0and19": 16033525,
+                    "between20and39": 17647995,
+                    "between40and59": 13609289,
+                    "between60and74": 7555313,
+                    "greaterthan75": 3725115,
+                    "total": 58571237
+                },
+                "men": {
+                    "between0and19": 8198930,
+                    "between20and39": 8823574,
+                    "between40and59": 6802442,
+                    "between60and74": 3419735,
+                    "greaterthan75": 1266484,
+                    "total": 28511165
+                },
+                "women": {
+                    "between0and19": 7834595,
+                    "between20and39": 8824421,
+                    "between40and59": 6806847,
+                    "between60and74": 4135578,
+                    "greaterthan75": 2458631,
+                    "total": 30060072
+                }
+            }
+        ]
+    },
+    {
+        "year": 1993,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 15330473,
+                    "between20and39": 17188587,
+                    "between40and59": 13542190,
+                    "between60and74": 7704985,
+                    "greaterthan75": 3602926,
+                    "total": 57369161
+                },
+                "men": {
+                    "between0and19": 7842409,
+                    "between20and39": 8595657,
+                    "between40and59": 6771175,
+                    "between60and74": 3487408,
+                    "greaterthan75": 1218796,
+                    "total": 27915445
+                },
+                "women": {
+                    "between0and19": 7488064,
+                    "between20and39": 8592930,
+                    "between40and59": 6771015,
+                    "between60and74": 4217577,
+                    "greaterthan75": 2384130,
+                    "total": 29453716
+                }
+            },
+            {
+                "region_code": "DOM",
+                "region_name": "DOM",
+                "together": {
+                    "between0and19": 562518,
+                    "between20and39": 489449,
+                    "between40and59": 276851,
+                    "between60and74": 111456,
+                    "greaterthan75": 42567,
+                    "total": 1482841
+                },
+                "men": {
+                    "between0and19": 284989,
+                    "between20and39": 239686,
+                    "between40and59": 134905,
+                    "between60and74": 50902,
+                    "greaterthan75": 15521,
+                    "total": 726003
+                },
+                "women": {
+                    "between0and19": 277529,
+                    "between20and39": 249763,
+                    "between40and59": 141946,
+                    "between60and74": 60554,
+                    "greaterthan75": 27046,
+                    "total": 756838
+                }
+            },
+            {
+                "region_code": "France",
+                "region_name": "France métropolitaine et DOM",
+                "together": {
+                    "between0and19": 15892991,
+                    "between20and39": 17678036,
+                    "between40and59": 13819041,
+                    "between60and74": 7816441,
+                    "greaterthan75": 3645493,
+                    "total": 58852002
+                },
+                "men": {
+                    "between0and19": 8127398,
+                    "between20and39": 8835343,
+                    "between40and59": 6906080,
+                    "between60and74": 3538310,
+                    "greaterthan75": 1234317,
+                    "total": 28641448
+                },
+                "women": {
+                    "between0and19": 7765593,
+                    "between20and39": 8842693,
+                    "between40and59": 6912961,
+                    "between60and74": 4278131,
+                    "greaterthan75": 2411176,
+                    "total": 30210554
+                }
+            }
+        ]
+    },
+    {
+        "year": 1994,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 15179775,
+                    "between20and39": 17190600,
+                    "between40and59": 13749536,
+                    "between60and74": 7900918,
+                    "greaterthan75": 3544179,
+                    "total": 57565008
+                },
+                "men": {
+                    "between0and19": 7765056,
+                    "between20and39": 8590529,
+                    "between40and59": 6870893,
+                    "between60and74": 3576110,
+                    "greaterthan75": 1196855,
+                    "total": 27999443
+                },
+                "women": {
+                    "between0and19": 7414719,
+                    "between20and39": 8600071,
+                    "between40and59": 6878643,
+                    "between60and74": 4324808,
+                    "greaterthan75": 2347324,
+                    "total": 29565565
+                }
+            },
+            {
+                "region_code": "DOM",
+                "region_name": "DOM",
+                "together": {
+                    "between0and19": 564725,
+                    "between20and39": 493888,
+                    "between40and59": 287521,
+                    "between60and74": 114596,
+                    "greaterthan75": 44339,
+                    "total": 1505069
+                },
+                "men": {
+                    "between0and19": 286275,
+                    "between20and39": 241204,
+                    "between40and59": 139917,
+                    "between60and74": 52345,
+                    "greaterthan75": 16216,
+                    "total": 735957
+                },
+                "women": {
+                    "between0and19": 278450,
+                    "between20and39": 252684,
+                    "between40and59": 147604,
+                    "between60and74": 62251,
+                    "greaterthan75": 28123,
+                    "total": 769112
+                }
+            },
+            {
+                "region_code": "France",
+                "region_name": "France métropolitaine et DOM",
+                "together": {
+                    "between0and19": 15744500,
+                    "between20and39": 17684488,
+                    "between40and59": 14037057,
+                    "between60and74": 8015514,
+                    "greaterthan75": 3588518,
+                    "total": 59070077
+                },
+                "men": {
+                    "between0and19": 8051331,
+                    "between20and39": 8831733,
+                    "between40and59": 7010810,
+                    "between60and74": 3628455,
+                    "greaterthan75": 1213071,
+                    "total": 28735400
+                },
+                "women": {
+                    "between0and19": 7693169,
+                    "between20and39": 8852755,
+                    "between40and59": 7026247,
+                    "between60and74": 4387059,
+                    "greaterthan75": 2375447,
+                    "total": 30334677
+                }
+            }
+        ]
+    },
+    {
+        "year": 1995,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 15084361,
+                    "between20and39": 17108296,
+                    "between40and59": 13960425,
+                    "between60and74": 8063934,
+                    "greaterthan75": 3535519,
+                    "total": 57752535
+                },
+                "men": {
+                    "between0and19": 7714652,
+                    "between20and39": 8544847,
+                    "between40and59": 6970845,
+                    "between60and74": 3651387,
+                    "greaterthan75": 1196325,
+                    "total": 28078056
+                },
+                "women": {
+                    "between0and19": 7369709,
+                    "between20and39": 8563449,
+                    "between40and59": 6989580,
+                    "between60and74": 4412547,
+                    "greaterthan75": 2339194,
+                    "total": 29674479
+                }
+            },
+            {
+                "region_code": "DOM",
+                "region_name": "DOM",
+                "together": {
+                    "between0and19": 566764,
+                    "between20and39": 498851,
+                    "between40and59": 298060,
+                    "between60and74": 118198,
+                    "greaterthan75": 46169,
+                    "total": 1528042
+                },
+                "men": {
+                    "between0and19": 287308,
+                    "between20and39": 243225,
+                    "between40and59": 144853,
+                    "between60and74": 54048,
+                    "greaterthan75": 16962,
+                    "total": 746396
+                },
+                "women": {
+                    "between0and19": 279456,
+                    "between20and39": 255626,
+                    "between40and59": 153207,
+                    "between60and74": 64150,
+                    "greaterthan75": 29207,
+                    "total": 781646
+                }
+            },
+            {
+                "region_code": "France",
+                "region_name": "France métropolitaine et DOM",
+                "together": {
+                    "between0and19": 15651125,
+                    "between20and39": 17607147,
+                    "between40and59": 14258485,
+                    "between60and74": 8182132,
+                    "greaterthan75": 3581688,
+                    "total": 59280577
+                },
+                "men": {
+                    "between0and19": 8001960,
+                    "between20and39": 8788072,
+                    "between40and59": 7115698,
+                    "between60and74": 3705435,
+                    "greaterthan75": 1213287,
+                    "total": 28824452
+                },
+                "women": {
+                    "between0and19": 7649165,
+                    "between20and39": 8819075,
+                    "between40and59": 7142787,
+                    "between60and74": 4476697,
+                    "greaterthan75": 2368401,
+                    "total": 30456125
+                }
+            }
+        ]
+    },
+    {
+        "year": 1996,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 15058227,
+                    "between20and39": 16973323,
+                    "between40and59": 14187229,
+                    "between60and74": 8014488,
+                    "greaterthan75": 3702692,
+                    "total": 57935959
+                },
+                "men": {
+                    "between0and19": 7700740,
+                    "between20and39": 8472818,
+                    "between40and59": 7076216,
+                    "between60and74": 3635412,
+                    "greaterthan75": 1270265,
+                    "total": 28155451
+                },
+                "women": {
+                    "between0and19": 7357487,
+                    "between20and39": 8500505,
+                    "between40and59": 7111013,
+                    "between60and74": 4379076,
+                    "greaterthan75": 2432427,
+                    "total": 29780508
+                }
+            },
+            {
+                "region_code": "DOM",
+                "region_name": "DOM",
+                "together": {
+                    "between0and19": 568650,
+                    "between20and39": 504045,
+                    "between40and59": 308777,
+                    "between60and74": 121347,
+                    "greaterthan75": 48635,
+                    "total": 1551454
+                },
+                "men": {
+                    "between0and19": 288261,
+                    "between20and39": 245237,
+                    "between40and59": 149981,
+                    "between60and74": 55512,
+                    "greaterthan75": 17992,
+                    "total": 756983
+                },
+                "women": {
+                    "between0and19": 280389,
+                    "between20and39": 258808,
+                    "between40and59": 158796,
+                    "between60and74": 65835,
+                    "greaterthan75": 30643,
+                    "total": 794471
+                }
+            },
+            {
+                "region_code": "France",
+                "region_name": "France métropolitaine et DOM",
+                "together": {
+                    "between0and19": 15626877,
+                    "between20and39": 17477368,
+                    "between40and59": 14496006,
+                    "between60and74": 8135835,
+                    "greaterthan75": 3751327,
+                    "total": 59487413
+                },
+                "men": {
+                    "between0and19": 7989001,
+                    "between20and39": 8718055,
+                    "between40and59": 7226197,
+                    "between60and74": 3690924,
+                    "greaterthan75": 1288257,
+                    "total": 28912434
+                },
+                "women": {
+                    "between0and19": 7637876,
+                    "between20and39": 8759313,
+                    "between40and59": 7269809,
+                    "between60and74": 4444911,
+                    "greaterthan75": 2463070,
+                    "total": 30574979
+                }
+            }
+        ]
+    },
+    {
+        "year": 1997,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 15055742,
+                    "between20and39": 16818685,
+                    "between40and59": 14413667,
+                    "between60and74": 7971476,
+                    "greaterthan75": 3856448,
+                    "total": 58116018
+                },
+                "men": {
+                    "between0and19": 7700939,
+                    "between20and39": 8393762,
+                    "between40and59": 7180105,
+                    "between60and74": 3624104,
+                    "greaterthan75": 1336837,
+                    "total": 28235747
+                },
+                "women": {
+                    "between0and19": 7354803,
+                    "between20and39": 8424923,
+                    "between40and59": 7233562,
+                    "between60and74": 4347372,
+                    "greaterthan75": 2519611,
+                    "total": 29880271
+                }
+            },
+            {
+                "region_code": "DOM",
+                "region_name": "DOM",
+                "together": {
+                    "between0and19": 571005,
+                    "between20and39": 508875,
+                    "between40and59": 319525,
+                    "between60and74": 125051,
+                    "greaterthan75": 50703,
+                    "total": 1575159
+                },
+                "men": {
+                    "between0and19": 289532,
+                    "between20and39": 247012,
+                    "between40and59": 155036,
+                    "between60and74": 57222,
+                    "greaterthan75": 18869,
+                    "total": 767671
+                },
+                "women": {
+                    "between0and19": 281473,
+                    "between20and39": 261863,
+                    "between40and59": 164489,
+                    "between60and74": 67829,
+                    "greaterthan75": 31834,
+                    "total": 807488
+                }
+            },
+            {
+                "region_code": "France",
+                "region_name": "France métropolitaine et DOM",
+                "together": {
+                    "between0and19": 15626747,
+                    "between20and39": 17327560,
+                    "between40and59": 14733192,
+                    "between60and74": 8096527,
+                    "greaterthan75": 3907151,
+                    "total": 59691177
+                },
+                "men": {
+                    "between0and19": 7990471,
+                    "between20and39": 8640774,
+                    "between40and59": 7335141,
+                    "between60and74": 3681326,
+                    "greaterthan75": 1355706,
+                    "total": 29003418
+                },
+                "women": {
+                    "between0and19": 7636276,
+                    "between20and39": 8686786,
+                    "between40and59": 7398051,
+                    "between60and74": 4415201,
+                    "greaterthan75": 2551445,
+                    "total": 30687759
+                }
+            }
+        ]
+    },
+    {
+        "year": 1998,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 15026922,
+                    "between20and39": 16687479,
+                    "between40and59": 14655116,
+                    "between60and74": 7936339,
+                    "greaterthan75": 3993106,
+                    "total": 58298962
+                },
+                "men": {
+                    "between0and19": 7685889,
+                    "between20and39": 8327069,
+                    "between40and59": 7291089,
+                    "between60and74": 3615840,
+                    "greaterthan75": 1396294,
+                    "total": 28316181
+                },
+                "women": {
+                    "between0and19": 7341033,
+                    "between20and39": 8360410,
+                    "between40and59": 7364027,
+                    "between60and74": 4320499,
+                    "greaterthan75": 2596812,
+                    "total": 29982781
+                }
+            },
+            {
+                "region_code": "DOM",
+                "region_name": "DOM",
+                "together": {
+                    "between0and19": 573982,
+                    "between20and39": 513982,
+                    "between40and59": 330607,
+                    "between60and74": 128741,
+                    "greaterthan75": 53073,
+                    "total": 1600385
+                },
+                "men": {
+                    "between0and19": 291124,
+                    "between20and39": 249000,
+                    "between40and59": 160205,
+                    "between60and74": 58960,
+                    "greaterthan75": 19885,
+                    "total": 779174
+                },
+                "women": {
+                    "between0and19": 282858,
+                    "between20and39": 264982,
+                    "between40and59": 170402,
+                    "between60and74": 69781,
+                    "greaterthan75": 33188,
+                    "total": 821211
+                }
+            },
+            {
+                "region_code": "France",
+                "region_name": "France métropolitaine et DOM",
+                "together": {
+                    "between0and19": 15600904,
+                    "between20and39": 17201461,
+                    "between40and59": 14985723,
+                    "between60and74": 8065080,
+                    "greaterthan75": 4046179,
+                    "total": 59899347
+                },
+                "men": {
+                    "between0and19": 7977013,
+                    "between20and39": 8576069,
+                    "between40and59": 7451294,
+                    "between60and74": 3674800,
+                    "greaterthan75": 1416179,
+                    "total": 29095355
+                },
+                "women": {
+                    "between0and19": 7623891,
+                    "between20and39": 8625392,
+                    "between40and59": 7534429,
+                    "between60and74": 4390280,
+                    "greaterthan75": 2630000,
+                    "total": 30803992
+                }
+            }
+        ]
+    },
+    {
+        "year": 1999,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 15017908,
+                    "between20and39": 16565356,
+                    "between40and59": 14890414,
+                    "between60and74": 7901639,
+                    "greaterthan75": 4121296,
+                    "total": 58496613
+                },
+                "men": {
+                    "between0and19": 7682497,
+                    "between20and39": 8266444,
+                    "between40and59": 7397208,
+                    "between60and74": 3608319,
+                    "greaterthan75": 1451677,
+                    "total": 28406145
+                },
+                "women": {
+                    "between0and19": 7335411,
+                    "between20and39": 8298912,
+                    "between40and59": 7493206,
+                    "between60and74": 4293320,
+                    "greaterthan75": 2669619,
+                    "total": 30090468
+                }
+            },
+            {
+                "region_code": "DOM",
+                "region_name": "DOM",
+                "together": {
+                    "between0and19": 577262,
+                    "between20and39": 517197,
+                    "between40and59": 341649,
+                    "between60and74": 133546,
+                    "greaterthan75": 56398,
+                    "total": 1626052
+                },
+                "men": {
+                    "between0and19": 293002,
+                    "between20and39": 249897,
+                    "between40and59": 165018,
+                    "between60and74": 61092,
+                    "greaterthan75": 21258,
+                    "total": 790267
+                },
+                "women": {
+                    "between0and19": 284260,
+                    "between20and39": 267300,
+                    "between40and59": 176631,
+                    "between60and74": 72454,
+                    "greaterthan75": 35140,
+                    "total": 835785
+                }
+            },
+            {
+                "region_code": "France",
+                "region_name": "France métropolitaine et DOM",
+                "together": {
+                    "between0and19": 15595170,
+                    "between20and39": 17082553,
+                    "between40and59": 15232063,
+                    "between60and74": 8035185,
+                    "greaterthan75": 4177694,
+                    "total": 60122665
+                },
+                "men": {
+                    "between0and19": 7975499,
+                    "between20and39": 8516341,
+                    "between40and59": 7562226,
+                    "between60and74": 3669411,
+                    "greaterthan75": 1472935,
+                    "total": 29196412
+                },
+                "women": {
+                    "between0and19": 7619671,
+                    "between20and39": 8566212,
+                    "between40and59": 7669837,
+                    "between60and74": 4365774,
+                    "greaterthan75": 2704759,
+                    "total": 30926253
+                }
+            }
+        ]
+    },
+    {
+        "year": 2000,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 15044092,
+                    "between20and39": 16483404,
+                    "between40and59": 15186214,
+                    "between60and74": 7899683,
+                    "greaterthan75": 4244805,
+                    "total": 58858198
+                },
+                "men": {
+                    "between0and19": 7692965,
+                    "between20and39": 8223657,
+                    "between40and59": 7532154,
+                    "between60and74": 3614399,
+                    "greaterthan75": 1502806,
+                    "total": 28565981
+                },
+                "women": {
+                    "between0and19": 7351127,
+                    "between20and39": 8259747,
+                    "between40and59": 7654060,
+                    "between60and74": 4285284,
+                    "greaterthan75": 2741999,
+                    "total": 30292217
+                }
+            },
+            {
+                "region_code": "DOM",
+                "region_name": "DOM",
+                "together": {
+                    "between0and19": 582548,
+                    "between20and39": 515017,
+                    "between40and59": 356593,
+                    "between60and74": 136481,
+                    "greaterthan75": 59313,
+                    "total": 1649952
+                },
+                "men": {
+                    "between0and19": 295447,
+                    "between20and39": 247397,
+                    "between40and59": 172136,
+                    "between60and74": 62368,
+                    "greaterthan75": 22471,
+                    "total": 799819
+                },
+                "women": {
+                    "between0and19": 287101,
+                    "between20and39": 267620,
+                    "between40and59": 184457,
+                    "between60and74": 74113,
+                    "greaterthan75": 36842,
+                    "total": 850133
+                }
+            },
+            {
+                "region_code": "France",
+                "region_name": "France métropolitaine et DOM",
+                "together": {
+                    "between0and19": 15626640,
+                    "between20and39": 16998421,
+                    "between40and59": 15542807,
+                    "between60and74": 8036164,
+                    "greaterthan75": 4304118,
+                    "total": 60508150
+                },
+                "men": {
+                    "between0and19": 7988412,
+                    "between20and39": 8471054,
+                    "between40and59": 7704290,
+                    "between60and74": 3676767,
+                    "greaterthan75": 1525277,
+                    "total": 29365800
+                },
+                "women": {
+                    "between0and19": 7638228,
+                    "between20and39": 8527367,
+                    "between40and59": 7838517,
+                    "between60and74": 4359397,
+                    "greaterthan75": 2778841,
+                    "total": 31142350
+                }
+            }
+        ]
+    },
+    {
+        "year": 2001,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 15062693,
+                    "between20and39": 16456501,
+                    "between40and59": 15509841,
+                    "between60and74": 7857741,
+                    "greaterthan75": 4379796,
+                    "total": 59266572
+                },
+                "men": {
+                    "between0and19": 7701868,
+                    "between20and39": 8207681,
+                    "between40and59": 7678778,
+                    "between60and74": 3603087,
+                    "greaterthan75": 1558392,
+                    "total": 28749806
+                },
+                "women": {
+                    "between0and19": 7360825,
+                    "between20and39": 8248820,
+                    "between40and59": 7831063,
+                    "between60and74": 4254654,
+                    "greaterthan75": 2821404,
+                    "total": 30516766
+                }
+            },
+            {
+                "region_code": "DOM",
+                "region_name": "DOM",
+                "together": {
+                    "between0and19": 588366,
+                    "between20and39": 512079,
+                    "between40and59": 372165,
+                    "between60and74": 140117,
+                    "greaterthan75": 62111,
+                    "total": 1674838
+                },
+                "men": {
+                    "between0and19": 298573,
+                    "between20and39": 244520,
+                    "between40and59": 179189,
+                    "between60and74": 64309,
+                    "greaterthan75": 23620,
+                    "total": 810211
+                },
+                "women": {
+                    "between0and19": 289793,
+                    "between20and39": 267559,
+                    "between40and59": 192976,
+                    "between60and74": 75808,
+                    "greaterthan75": 38491,
+                    "total": 864627
+                }
+            },
+            {
+                "region_code": "France",
+                "region_name": "France métropolitaine et DOM",
+                "together": {
+                    "between0and19": 15651059,
+                    "between20and39": 16968580,
+                    "between40and59": 15882006,
+                    "between60and74": 7997858,
+                    "greaterthan75": 4441907,
+                    "total": 60941410
+                },
+                "men": {
+                    "between0and19": 8000441,
+                    "between20and39": 8452201,
+                    "between40and59": 7857967,
+                    "between60and74": 3667396,
+                    "greaterthan75": 1582012,
+                    "total": 29560017
+                },
+                "women": {
+                    "between0and19": 7650618,
+                    "between20and39": 8516379,
+                    "between40and59": 8024039,
+                    "between60and74": 4330462,
+                    "greaterthan75": 2859895,
+                    "total": 31381393
+                }
+            }
+        ]
+    },
+    {
+        "year": 2002,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 15086076,
+                    "between20and39": 16430656,
+                    "between40and59": 15861835,
+                    "between60and74": 7790589,
+                    "greaterthan75": 4516743,
+                    "total": 59685899
+                },
+                "men": {
+                    "between0and19": 7713377,
+                    "between20and39": 8192270,
+                    "between40and59": 7838720,
+                    "between60and74": 3580072,
+                    "greaterthan75": 1614565,
+                    "total": 28939004
+                },
+                "women": {
+                    "between0and19": 7372699,
+                    "between20and39": 8238386,
+                    "between40and59": 8023115,
+                    "between60and74": 4210517,
+                    "greaterthan75": 2902178,
+                    "total": 30746895
+                }
+            },
+            {
+                "region_code": "DOM",
+                "region_name": "DOM",
+                "together": {
+                    "between0and19": 593529,
+                    "between20and39": 509140,
+                    "between40and59": 388724,
+                    "between60and74": 143247,
+                    "greaterthan75": 64531,
+                    "total": 1699171
+                },
+                "men": {
+                    "between0and19": 301245,
+                    "between20and39": 241692,
+                    "between40and59": 187003,
+                    "between60and74": 65795,
+                    "greaterthan75": 24594,
+                    "total": 820329
+                },
+                "women": {
+                    "between0and19": 292284,
+                    "between20and39": 267448,
+                    "between40and59": 201721,
+                    "between60and74": 77452,
+                    "greaterthan75": 39937,
+                    "total": 878842
+                }
+            },
+            {
+                "region_code": "France",
+                "region_name": "France métropolitaine et DOM",
+                "together": {
+                    "between0and19": 15679605,
+                    "between20and39": 16939796,
+                    "between40and59": 16250559,
+                    "between60and74": 7933836,
+                    "greaterthan75": 4581274,
+                    "total": 61385070
+                },
+                "men": {
+                    "between0and19": 8014622,
+                    "between20and39": 8433962,
+                    "between40and59": 8025723,
+                    "between60and74": 3645867,
+                    "greaterthan75": 1639159,
+                    "total": 29759333
+                },
+                "women": {
+                    "between0and19": 7664983,
+                    "between20and39": 8505834,
+                    "between40and59": 8224836,
+                    "between60and74": 4287969,
+                    "greaterthan75": 2942115,
+                    "total": 31625737
+                }
+            }
+        ]
+    },
+    {
+        "year": 2003,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 15112516,
+                    "between20and39": 16411306,
+                    "between40and59": 16152599,
+                    "between60and74": 7778692,
+                    "greaterthan75": 4646728,
+                    "total": 60101841
+                },
+                "men": {
+                    "between0and19": 7728000,
+                    "between20and39": 8179531,
+                    "between40and59": 7967758,
+                    "between60and74": 3584051,
+                    "greaterthan75": 1668471,
+                    "total": 29127811
+                },
+                "women": {
+                    "between0and19": 7384516,
+                    "between20and39": 8231775,
+                    "between40and59": 8184841,
+                    "between60and74": 4194641,
+                    "greaterthan75": 2978257,
+                    "total": 30974030
+                }
+            },
+            {
+                "region_code": "DOM",
+                "region_name": "DOM",
+                "together": {
+                    "between0and19": 597342,
+                    "between20and39": 504807,
+                    "between40and59": 405531,
+                    "between60and74": 147292,
+                    "greaterthan75": 67217,
+                    "total": 1722189
+                },
+                "men": {
+                    "between0and19": 303233,
+                    "between20and39": 238439,
+                    "between40and59": 194427,
+                    "between60and74": 67781,
+                    "greaterthan75": 25653,
+                    "total": 829533
+                },
+                "women": {
+                    "between0and19": 294109,
+                    "between20and39": 266368,
+                    "between40and59": 211104,
+                    "between60and74": 79511,
+                    "greaterthan75": 41564,
+                    "total": 892656
+                }
+            },
+            {
+                "region_code": "France",
+                "region_name": "France métropolitaine et DOM",
+                "together": {
+                    "between0and19": 15709858,
+                    "between20and39": 16916113,
+                    "between40and59": 16558130,
+                    "between60and74": 7925984,
+                    "greaterthan75": 4713945,
+                    "total": 61824030
+                },
+                "men": {
+                    "between0and19": 8031233,
+                    "between20and39": 8417970,
+                    "between40and59": 8162185,
+                    "between60and74": 3651832,
+                    "greaterthan75": 1694124,
+                    "total": 29957344
+                },
+                "women": {
+                    "between0and19": 7678625,
+                    "between20and39": 8498143,
+                    "between40and59": 8395945,
+                    "between60and74": 4274152,
+                    "greaterthan75": 3019821,
+                    "total": 31866686
+                }
+            }
+        ]
+    },
+    {
+        "year": 2004,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 15182339,
+                    "between20and39": 16325793,
+                    "between40and59": 16434639,
+                    "between60and74": 7794174,
+                    "greaterthan75": 4768476,
+                    "total": 60505421
+                },
+                "men": {
+                    "between0and19": 7765576,
+                    "between20and39": 8133680,
+                    "between40and59": 8092471,
+                    "between60and74": 3601632,
+                    "greaterthan75": 1719313,
+                    "total": 29312672
+                },
+                "women": {
+                    "between0and19": 7416763,
+                    "between20and39": 8192113,
+                    "between40and59": 8342168,
+                    "between60and74": 4192542,
+                    "greaterthan75": 3049163,
+                    "total": 31192749
+                }
+            },
+            {
+                "region_code": "DOM",
+                "region_name": "DOM",
+                "together": {
+                    "between0and19": 601634,
+                    "between20and39": 499717,
+                    "between40and59": 423219,
+                    "between60and74": 151100,
+                    "greaterthan75": 69971,
+                    "total": 1745641
+                },
+                "men": {
+                    "between0and19": 305508,
+                    "between20and39": 234874,
+                    "between40and59": 202372,
+                    "between60and74": 69759,
+                    "greaterthan75": 26748,
+                    "total": 839261
+                },
+                "women": {
+                    "between0and19": 296126,
+                    "between20and39": 264843,
+                    "between40and59": 220847,
+                    "between60and74": 81341,
+                    "greaterthan75": 43223,
+                    "total": 906380
+                }
+            },
+            {
+                "region_code": "France",
+                "region_name": "France métropolitaine et DOM",
+                "together": {
+                    "between0and19": 15783973,
+                    "between20and39": 16825510,
+                    "between40and59": 16857858,
+                    "between60and74": 7945274,
+                    "greaterthan75": 4838447,
+                    "total": 62251062
+                },
+                "men": {
+                    "between0and19": 8071084,
+                    "between20and39": 8368554,
+                    "between40and59": 8294843,
+                    "between60and74": 3671391,
+                    "greaterthan75": 1746061,
+                    "total": 30151933
+                },
+                "women": {
+                    "between0and19": 7712889,
+                    "between20and39": 8456956,
+                    "between40and59": 8563015,
+                    "between60and74": 4273883,
+                    "greaterthan75": 3092386,
+                    "total": 32099129
+                }
+            }
+        ]
+    },
+    {
+        "year": 2005,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 15244989,
+                    "between20and39": 16253263,
+                    "between40and59": 16714029,
+                    "between60and74": 7828306,
+                    "greaterthan75": 4922677,
+                    "total": 60963264
+                },
+                "men": {
+                    "between0and19": 7798655,
+                    "between20and39": 8094303,
+                    "between40and59": 8218077,
+                    "between60and74": 3626588,
+                    "greaterthan75": 1779738,
+                    "total": 29517361
+                },
+                "women": {
+                    "between0and19": 7446334,
+                    "between20and39": 8158960,
+                    "between40and59": 8495952,
+                    "between60and74": 4201718,
+                    "greaterthan75": 3142939,
+                    "total": 31445903
+                }
+            },
+            {
+                "region_code": "DOM",
+                "region_name": "DOM",
+                "together": {
+                    "between0and19": 603868,
+                    "between20and39": 495021,
+                    "between40and59": 439643,
+                    "between60and74": 156095,
+                    "greaterthan75": 72646,
+                    "total": 1767273
+                },
+                "men": {
+                    "between0and19": 307010,
+                    "between20and39": 231619,
+                    "between40and59": 209534,
+                    "between60and74": 72219,
+                    "greaterthan75": 27849,
+                    "total": 848231
+                },
+                "women": {
+                    "between0and19": 296858,
+                    "between20and39": 263402,
+                    "between40and59": 230109,
+                    "between60and74": 83876,
+                    "greaterthan75": 44797,
+                    "total": 919042
+                }
+            },
+            {
+                "region_code": "France",
+                "region_name": "France métropolitaine et DOM",
+                "together": {
+                    "between0and19": 15848857,
+                    "between20and39": 16748284,
+                    "between40and59": 17153672,
+                    "between60and74": 7984401,
+                    "greaterthan75": 4995323,
+                    "total": 62730537
+                },
+                "men": {
+                    "between0and19": 8105665,
+                    "between20and39": 8325922,
+                    "between40and59": 8427611,
+                    "between60and74": 3698807,
+                    "greaterthan75": 1807587,
+                    "total": 30365592
+                },
+                "women": {
+                    "between0and19": 7743192,
+                    "between20and39": 8422362,
+                    "between40and59": 8726061,
+                    "between60and74": 4285594,
+                    "greaterthan75": 3187736,
+                    "total": 32364945
+                }
+            }
+        ]
+    },
+    {
+        "year": 2006,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 15280401,
+                    "between20and39": 16226472,
+                    "between40and59": 16967166,
+                    "between60and74": 7839700,
+                    "greaterthan75": 5085994,
+                    "total": 61399733
+                },
+                "men": {
+                    "between0and19": 7814800,
+                    "between20and39": 8083203,
+                    "between40and59": 8329031,
+                    "between60and74": 3642839,
+                    "greaterthan75": 1844538,
+                    "total": 29714411
+                },
+                "women": {
+                    "between0and19": 7465601,
+                    "between20and39": 8143269,
+                    "between40and59": 8638135,
+                    "between60and74": 4196861,
+                    "greaterthan75": 3241456,
+                    "total": 31685322
+                }
+            },
+            {
+                "region_code": "DOM",
+                "region_name": "DOM",
+                "together": {
+                    "between0and19": 607352,
+                    "between20and39": 488601,
+                    "between40and59": 453997,
+                    "between60and74": 163226,
+                    "greaterthan75": 73208,
+                    "total": 1786384
+                },
+                "men": {
+                    "between0and19": 308916,
+                    "between20and39": 227858,
+                    "between40and59": 216038,
+                    "between60and74": 75028,
+                    "greaterthan75": 27793,
+                    "total": 855633
+                },
+                "women": {
+                    "between0and19": 298436,
+                    "between20and39": 260743,
+                    "between40and59": 237959,
+                    "between60and74": 88198,
+                    "greaterthan75": 45415,
+                    "total": 930751
+                }
+            },
+            {
+                "region_code": "France",
+                "region_name": "France métropolitaine et DOM",
+                "together": {
+                    "between0and19": 15887753,
+                    "between20and39": 16715073,
+                    "between40and59": 17421163,
+                    "between60and74": 8002926,
+                    "greaterthan75": 5159202,
+                    "total": 63186117
+                },
+                "men": {
+                    "between0and19": 8123716,
+                    "between20and39": 8311061,
+                    "between40and59": 8545069,
+                    "between60and74": 3717867,
+                    "greaterthan75": 1872331,
+                    "total": 30570044
+                },
+                "women": {
+                    "between0and19": 7764037,
+                    "between20and39": 8404012,
+                    "between40and59": 8876094,
+                    "between60and74": 4285059,
+                    "greaterthan75": 3286871,
+                    "total": 32616073
+                }
+            }
+        ]
+    },
+    {
+        "year": 2007,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 15315094,
+                    "between20and39": 16181437,
+                    "between40and59": 17038546,
+                    "between60and74": 8033849,
+                    "greaterthan75": 5226312,
+                    "total": 61795238
+                },
+                "men": {
+                    "between0and19": 7838862,
+                    "between20and39": 8061327,
+                    "between40and59": 8361052,
+                    "between60and74": 3753507,
+                    "greaterthan75": 1902830,
+                    "total": 29917578
+                },
+                "women": {
+                    "between0and19": 7476232,
+                    "between20and39": 8120110,
+                    "between40and59": 8677494,
+                    "between60and74": 4280342,
+                    "greaterthan75": 3323482,
+                    "total": 31877660
+                }
+            },
+            {
+                "region_code": "DOM",
+                "region_name": "DOM",
+                "together": {
+                    "between0and19": 609702,
+                    "between20and39": 487409,
+                    "between40and59": 466434,
+                    "between60and74": 166869,
+                    "greaterthan75": 75038,
+                    "total": 1805452
+                },
+                "men": {
+                    "between0and19": 310006,
+                    "between20and39": 227252,
+                    "between40and59": 221773,
+                    "between60and74": 76765,
+                    "greaterthan75": 28380,
+                    "total": 864176
+                },
+                "women": {
+                    "between0and19": 299696,
+                    "between20and39": 260157,
+                    "between40and59": 244661,
+                    "between60and74": 90104,
+                    "greaterthan75": 46658,
+                    "total": 941276
+                }
+            },
+            {
+                "region_code": "France",
+                "region_name": "France métropolitaine et DOM",
+                "together": {
+                    "between0and19": 15924796,
+                    "between20and39": 16668846,
+                    "between40and59": 17504980,
+                    "between60and74": 8200718,
+                    "greaterthan75": 5301350,
+                    "total": 63600690
+                },
+                "men": {
+                    "between0and19": 8148868,
+                    "between20and39": 8288579,
+                    "between40and59": 8582825,
+                    "between60and74": 3830272,
+                    "greaterthan75": 1931210,
+                    "total": 30781754
+                },
+                "women": {
+                    "between0and19": 7775928,
+                    "between20and39": 8380267,
+                    "between40and59": 8922155,
+                    "between60and74": 4370446,
+                    "greaterthan75": 3370140,
+                    "total": 32818936
+                }
+            }
+        ]
+    },
+    {
+        "year": 2008,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 15337575,
+                    "between20and39": 16131404,
+                    "between40and59": 17039375,
+                    "between60and74": 8265032,
+                    "greaterthan75": 5361480,
+                    "total": 62134866
+                },
+                "men": {
+                    "between0and19": 7850203,
+                    "between20and39": 8034573,
+                    "between40and59": 8358745,
+                    "between60and74": 3880286,
+                    "greaterthan75": 1960940,
+                    "total": 30084747
+                },
+                "women": {
+                    "between0and19": 7487372,
+                    "between20and39": 8096831,
+                    "between40and59": 8680630,
+                    "between60and74": 4384746,
+                    "greaterthan75": 3400540,
+                    "total": 32050119
+                }
+            },
+            {
+                "region_code": "DOM",
+                "region_name": "DOM",
+                "together": {
+                    "between0and19": 611310,
+                    "between20and39": 485517,
+                    "between40and59": 478497,
+                    "between60and74": 174208,
+                    "greaterthan75": 77461,
+                    "total": 1826993
+                },
+                "men": {
+                    "between0and19": 311181,
+                    "between20and39": 225184,
+                    "between40and59": 227269,
+                    "between60and74": 80429,
+                    "greaterthan75": 29477,
+                    "total": 873540
+                },
+                "women": {
+                    "between0and19": 300129,
+                    "between20and39": 260333,
+                    "between40and59": 251228,
+                    "between60and74": 93779,
+                    "greaterthan75": 47984,
+                    "total": 953453
+                }
+            },
+            {
+                "region_code": "France",
+                "region_name": "France métropolitaine et DOM",
+                "together": {
+                    "between0and19": 15948885,
+                    "between20and39": 16616921,
+                    "between40and59": 17517872,
+                    "between60and74": 8439240,
+                    "greaterthan75": 5438941,
+                    "total": 63961859
+                },
+                "men": {
+                    "between0and19": 8161384,
+                    "between20and39": 8259757,
+                    "between40and59": 8586014,
+                    "between60and74": 3960715,
+                    "greaterthan75": 1990417,
+                    "total": 30958287
+                },
+                "women": {
+                    "between0and19": 7787501,
+                    "between20and39": 8357164,
+                    "between40and59": 8931858,
+                    "between60and74": 4478525,
+                    "greaterthan75": 3448524,
+                    "total": 33003572
+                }
+            }
+        ]
+    },
+    {
+        "year": 2009,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 15368840,
+                    "between20and39": 16082452,
+                    "between40and59": 17024614,
+                    "between60and74": 8520227,
+                    "greaterthan75": 5469576,
+                    "total": 62465709
+                },
+                "men": {
+                    "between0and19": 7864098,
+                    "between20and39": 8009845,
+                    "between40and59": 8347989,
+                    "between60and74": 4015893,
+                    "greaterthan75": 2009609,
+                    "total": 30247434
+                },
+                "women": {
+                    "between0and19": 7504742,
+                    "between20and39": 8072607,
+                    "between40and59": 8676625,
+                    "between60and74": 4504334,
+                    "greaterthan75": 3459967,
+                    "total": 32218275
+                }
+            },
+            {
+                "region_code": "DOM",
+                "region_name": "DOM",
+                "together": {
+                    "between0and19": 608468,
+                    "between20and39": 479747,
+                    "between40and59": 489387,
+                    "between60and74": 180961,
+                    "greaterthan75": 80228,
+                    "total": 1838791
+                },
+                "men": {
+                    "between0and19": 310095,
+                    "between20and39": 222031,
+                    "between40and59": 231863,
+                    "between60and74": 83737,
+                    "greaterthan75": 30685,
+                    "total": 878411
+                },
+                "women": {
+                    "between0and19": 298373,
+                    "between20and39": 257716,
+                    "between40and59": 257524,
+                    "between60and74": 97224,
+                    "greaterthan75": 49543,
+                    "total": 960380
+                }
+            },
+            {
+                "region_code": "France",
+                "region_name": "France métropolitaine et DOM",
+                "together": {
+                    "between0and19": 15977308,
+                    "between20and39": 16562199,
+                    "between40and59": 17514001,
+                    "between60and74": 8701188,
+                    "greaterthan75": 5549804,
+                    "total": 64304500
+                },
+                "men": {
+                    "between0and19": 8174193,
+                    "between20and39": 8231876,
+                    "between40and59": 8579852,
+                    "between60and74": 4099630,
+                    "greaterthan75": 2040294,
+                    "total": 31125845
+                },
+                "women": {
+                    "between0and19": 7803115,
+                    "between20and39": 8330323,
+                    "between40and59": 8934149,
+                    "between60and74": 4601558,
+                    "greaterthan75": 3509510,
+                    "total": 33178655
+                }
+            }
+        ]
+    },
+    {
+        "year": 2010,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 15406592,
+                    "between20and39": 16014053,
+                    "between40and59": 17009559,
+                    "between60and74": 8758932,
+                    "greaterthan75": 5576099,
+                    "total": 62765235
+                },
+                "men": {
+                    "between0and19": 7882609,
+                    "between20and39": 7973646,
+                    "between40and59": 8342523,
+                    "between60and74": 4138767,
+                    "greaterthan75": 2060405,
+                    "total": 30397950
+                },
+                "women": {
+                    "between0and19": 7523983,
+                    "between20and39": 8040407,
+                    "between40and59": 8667036,
+                    "between60and74": 4620165,
+                    "greaterthan75": 3515694,
+                    "total": 32367285
+                }
+            },
+            {
+                "region_code": "DOM",
+                "region_name": "DOM",
+                "together": {
+                    "between0and19": 603943,
+                    "between20and39": 473916,
+                    "between40and59": 499702,
+                    "between60and74": 186784,
+                    "greaterthan75": 83359,
+                    "total": 1847704
+                },
+                "men": {
+                    "between0and19": 308277,
+                    "between20and39": 218481,
+                    "between40and59": 235966,
+                    "between60and74": 86836,
+                    "greaterthan75": 32022,
+                    "total": 881582
+                },
+                "women": {
+                    "between0and19": 295666,
+                    "between20and39": 255435,
+                    "between40and59": 263736,
+                    "between60and74": 99948,
+                    "greaterthan75": 51337,
+                    "total": 966122
+                }
+            },
+            {
+                "region_code": "France",
+                "region_name": "France métropolitaine et DOM",
+                "together": {
+                    "between0and19": 16010535,
+                    "between20and39": 16487969,
+                    "between40and59": 17509261,
+                    "between60and74": 8945716,
+                    "greaterthan75": 5659458,
+                    "total": 64612939
+                },
+                "men": {
+                    "between0and19": 8190886,
+                    "between20and39": 8192127,
+                    "between40and59": 8578489,
+                    "between60and74": 4225603,
+                    "greaterthan75": 2092427,
+                    "total": 31279532
+                },
+                "women": {
+                    "between0and19": 7819649,
+                    "between20and39": 8295842,
+                    "between40and59": 8930772,
+                    "between60and74": 4720113,
+                    "greaterthan75": 3567031,
+                    "total": 33333407
+                }
+            }
+        ]
+    },
+    {
+        "year": 2011,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 15440408,
+                    "between20and39": 15931863,
+                    "between40and59": 17008038,
+                    "between60and74": 9021923,
+                    "greaterthan75": 5668112,
+                    "total": 63070344
+                },
+                "men": {
+                    "between0and19": 7901666,
+                    "between20and39": 7931811,
+                    "between40and59": 8344886,
+                    "between60and74": 4271721,
+                    "greaterthan75": 2103544,
+                    "total": 30553628
+                },
+                "women": {
+                    "between0and19": 7538742,
+                    "between20and39": 8000052,
+                    "between40and59": 8663152,
+                    "between60and74": 4750202,
+                    "greaterthan75": 3564568,
+                    "total": 32516716
+                }
+            },
+            {
+                "region_code": "DOM",
+                "region_name": "DOM",
+                "together": {
+                    "between0and19": 597862,
+                    "between20and39": 470525,
+                    "between40and59": 509682,
+                    "between60and74": 196088,
+                    "greaterthan75": 88899,
+                    "total": 1863056
+                },
+                "men": {
+                    "between0and19": 304959,
+                    "between20and39": 216606,
+                    "between40and59": 240402,
+                    "between60and74": 91208,
+                    "greaterthan75": 34154,
+                    "total": 887329
+                },
+                "women": {
+                    "between0and19": 292903,
+                    "between20and39": 253919,
+                    "between40and59": 269280,
+                    "between60and74": 104880,
+                    "greaterthan75": 54745,
+                    "total": 975727
+                }
+            },
+            {
+                "region_code": "France",
+                "region_name": "France métropolitaine et DOM",
+                "together": {
+                    "between0and19": 16038270,
+                    "between20and39": 16402388,
+                    "between40and59": 17517720,
+                    "between60and74": 9218011,
+                    "greaterthan75": 5757011,
+                    "total": 64933400
+                },
+                "men": {
+                    "between0and19": 8206625,
+                    "between20and39": 8148417,
+                    "between40and59": 8585288,
+                    "between60and74": 4362929,
+                    "greaterthan75": 2137698,
+                    "total": 31440957
+                },
+                "women": {
+                    "between0and19": 7831645,
+                    "between20and39": 8253971,
+                    "between40and59": 8932432,
+                    "between60and74": 4855082,
+                    "greaterthan75": 3619313,
+                    "total": 33492443
+                }
+            }
+        ]
+    },
+    {
+        "year": 2012,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 15457656,
+                    "between20and39": 15832562,
+                    "between40and59": 17078048,
+                    "between60and74": 9256053,
+                    "greaterthan75": 5751652,
+                    "total": 63375971
+                },
+                "men": {
+                    "between0and19": 7908343,
+                    "between20and39": 7875308,
+                    "between40and59": 8382174,
+                    "between60and74": 4386217,
+                    "greaterthan75": 2147128,
+                    "total": 30699170
+                },
+                "women": {
+                    "between0and19": 7549313,
+                    "between20and39": 7957254,
+                    "between40and59": 8695874,
+                    "between60and74": 4869836,
+                    "greaterthan75": 3604524,
+                    "total": 32676801
+                }
+            },
+            {
+                "region_code": "DOM",
+                "region_name": "DOM",
+                "together": {
+                    "between0and19": 589457,
+                    "between20and39": 463590,
+                    "between40and59": 516879,
+                    "between60and74": 202667,
+                    "greaterthan75": 92677,
+                    "total": 1865270
+                },
+                "men": {
+                    "between0and19": 300443,
+                    "between20and39": 214970,
+                    "between40and59": 243429,
+                    "between60and74": 94364,
+                    "greaterthan75": 35698,
+                    "total": 888904
+                },
+                "women": {
+                    "between0and19": 289014,
+                    "between20and39": 248620,
+                    "between40and59": 273450,
+                    "between60and74": 108303,
+                    "greaterthan75": 56979,
+                    "total": 976366
+                }
+            },
+            {
+                "region_code": "France",
+                "region_name": "France métropolitaine et DOM",
+                "together": {
+                    "between0and19": 16047113,
+                    "between20and39": 16296152,
+                    "between40and59": 17594927,
+                    "between60and74": 9458720,
+                    "greaterthan75": 5844329,
+                    "total": 65241241
+                },
+                "men": {
+                    "between0and19": 8208786,
+                    "between20and39": 8090278,
+                    "between40and59": 8625603,
+                    "between60and74": 4480581,
+                    "greaterthan75": 2182826,
+                    "total": 31588074
+                },
+                "women": {
+                    "between0and19": 7838327,
+                    "between20and39": 8205874,
+                    "between40and59": 8969324,
+                    "between60and74": 4978139,
+                    "greaterthan75": 3661503,
+                    "total": 33653167
+                }
+            }
+        ]
+    },
+    {
+        "year": 2013,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 15513096,
+                    "between20and39": 15714062,
+                    "between40and59": 17139185,
+                    "between60and74": 9512516,
+                    "greaterthan75": 5819006,
+                    "total": 63697865
+                },
+                "men": {
+                    "between0and19": 7939908,
+                    "between20and39": 7812538,
+                    "between40and59": 8420937,
+                    "between60and74": 4508027,
+                    "greaterthan75": 2184599,
+                    "total": 30866009
+                },
+                "women": {
+                    "between0and19": 7573188,
+                    "between20and39": 7901524,
+                    "between40and59": 8718248,
+                    "between60and74": 5004489,
+                    "greaterthan75": 3634407,
+                    "total": 32831856
+                }
+            },
+            {
+                "region_code": "DOM",
+                "region_name": "DOM",
+                "together": {
+                    "between0and19": 582985,
+                    "between20and39": 454590,
+                    "between40and59": 523140,
+                    "between60and74": 210440,
+                    "greaterthan75": 95736,
+                    "total": 1866891
+                },
+                "men": {
+                    "between0and19": 297052,
+                    "between20and39": 210904,
+                    "between40and59": 246283,
+                    "between60and74": 98199,
+                    "greaterthan75": 36978,
+                    "total": 889416
+                },
+                "women": {
+                    "between0and19": 285933,
+                    "between20and39": 243686,
+                    "between40and59": 276857,
+                    "between60and74": 112241,
+                    "greaterthan75": 58758,
+                    "total": 977475
+                }
+            },
+            {
+                "region_code": "France",
+                "region_name": "France métropolitaine et DOM",
+                "together": {
+                    "between0and19": 16096081,
+                    "between20and39": 16168652,
+                    "between40and59": 17662325,
+                    "between60and74": 9722956,
+                    "greaterthan75": 5914742,
+                    "total": 65564756
+                },
+                "men": {
+                    "between0and19": 8236960,
+                    "between20and39": 8023442,
+                    "between40and59": 8667220,
+                    "between60and74": 4606226,
+                    "greaterthan75": 2221577,
+                    "total": 31755425
+                },
+                "women": {
+                    "between0and19": 7859121,
+                    "between20and39": 8145210,
+                    "between40and59": 8995105,
+                    "between60and74": 5116730,
+                    "greaterthan75": 3693165,
+                    "total": 33809331
+                }
+            }
+        ]
+    },
+    {
+        "year": 2014,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 15588708,
+                    "between20and39": 15585219,
+                    "between40and59": 17206322,
+                    "between60and74": 9754711,
+                    "greaterthan75": 5892998,
+                    "total": 64027958
+                },
+                "men": {
+                    "between0and19": 7977349,
+                    "between20and39": 7743600,
+                    "between40and59": 8456377,
+                    "between60and74": 4623563,
+                    "greaterthan75": 2224035,
+                    "total": 31024924
+                },
+                "women": {
+                    "between0and19": 7611359,
+                    "between20and39": 7841619,
+                    "between40and59": 8749945,
+                    "between60and74": 5131148,
+                    "greaterthan75": 3668963,
+                    "total": 33003034
+                }
+            },
+            {
+                "region_code": "DOM",
+                "region_name": "DOM",
+                "together": {
+                    "between0and19": 706017,
+                    "between20and39": 509190,
+                    "between40and59": 560259,
+                    "between60and74": 226280,
+                    "greaterthan75": 101169,
+                    "total": 2102915
+                },
+                "men": {
+                    "between0and19": 358576,
+                    "between20and39": 234044,
+                    "between40and59": 265239,
+                    "between60and74": 105898,
+                    "greaterthan75": 39446,
+                    "total": 1003203
+                },
+                "women": {
+                    "between0and19": 347441,
+                    "between20and39": 275146,
+                    "between40and59": 295020,
+                    "between60and74": 120382,
+                    "greaterthan75": 61723,
+                    "total": 1099712
+                }
+            },
+            {
+                "region_code": "France",
+                "region_name": "France métropolitaine et DOM",
+                "together": {
+                    "between0and19": 16294725,
+                    "between20and39": 16094409,
+                    "between40and59": 17766581,
+                    "between60and74": 9980991,
+                    "greaterthan75": 5994167,
+                    "total": 66130873
+                },
+                "men": {
+                    "between0and19": 8335925,
+                    "between20and39": 7977644,
+                    "between40and59": 8721616,
+                    "between60and74": 4729461,
+                    "greaterthan75": 2263481,
+                    "total": 32028127
+                },
+                "women": {
+                    "between0and19": 7958800,
+                    "between20and39": 8116765,
+                    "between40and59": 9044965,
+                    "between60and74": 5251530,
+                    "greaterthan75": 3730686,
+                    "total": 34102746
+                }
+            }
+        ]
+    },
+    {
+        "year": 2015,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 15651778,
+                    "between20and39": 15491360,
+                    "between40and59": 17189272,
+                    "between60and74": 10000619,
+                    "greaterthan75": 5967792,
+                    "total": 64300821
+                },
+                "men": {
+                    "between0and19": 8006756,
+                    "between20and39": 7685214,
+                    "between40and59": 8449958,
+                    "between60and74": 4738578,
+                    "greaterthan75": 2266880,
+                    "total": 31147386
+                },
+                "women": {
+                    "between0and19": 7645022,
+                    "between20and39": 7806146,
+                    "between40and59": 8739314,
+                    "between60and74": 5262041,
+                    "greaterthan75": 3700912,
+                    "total": 33153435
+                }
+            },
+            {
+                "region_code": "DOM",
+                "region_name": "DOM",
+                "together": {
+                    "between0and19": 707236,
+                    "between20and39": 506147,
+                    "between40and59": 567279,
+                    "between60and74": 236964,
+                    "greaterthan75": 104022,
+                    "total": 2121648
+                },
+                "men": {
+                    "between0and19": 358989,
+                    "between20and39": 231555,
+                    "between40and59": 267488,
+                    "between60and74": 110931,
+                    "greaterthan75": 40634,
+                    "total": 1009597
+                },
+                "women": {
+                    "between0and19": 348247,
+                    "between20and39": 274592,
+                    "between40and59": 299791,
+                    "between60and74": 126033,
+                    "greaterthan75": 63388,
+                    "total": 1112051
+                }
+            },
+            {
+                "region_code": "France",
+                "region_name": "France métropolitaine et DOM",
+                "together": {
+                    "between0and19": 16359014,
+                    "between20and39": 15997507,
+                    "between40and59": 17756551,
+                    "between60and74": 10237583,
+                    "greaterthan75": 6071814,
+                    "total": 66422469
+                },
+                "men": {
+                    "between0and19": 8365745,
+                    "between20and39": 7916769,
+                    "between40and59": 8717446,
+                    "between60and74": 4849509,
+                    "greaterthan75": 2307514,
+                    "total": 32156983
+                },
+                "women": {
+                    "between0and19": 7993269,
+                    "between20and39": 8080738,
+                    "between40and59": 9039105,
+                    "between60and74": 5388074,
+                    "greaterthan75": 3764300,
+                    "total": 34265486
+                }
+            }
+        ]
+    },
+    {
+        "year": 2016,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 15645526,
+                    "between20and39": 15438219,
+                    "between40and59": 17124038,
+                    "between60and74": 10266193,
+                    "greaterthan75": 5994816,
+                    "total": 64468792
+                },
+                "men": {
+                    "between0and19": 8004668,
+                    "between20and39": 7648979,
+                    "between40and59": 8418136,
+                    "between60and74": 4856994,
+                    "greaterthan75": 2287425,
+                    "total": 31216202
+                },
+                "women": {
+                    "between0and19": 7640858,
+                    "between20and39": 7789240,
+                    "between40and59": 8705902,
+                    "between60and74": 5409199,
+                    "greaterthan75": 3707391,
+                    "total": 33252590
+                }
+            },
+            {
+                "region_code": "DOM",
+                "region_name": "DOM",
+                "together": {
+                    "between0and19": 706605,
+                    "between20and39": 502300,
+                    "between40and59": 570573,
+                    "between60and74": 246581,
+                    "greaterthan75": 107794,
+                    "total": 2133853
+                },
+                "men": {
+                    "between0and19": 357379,
+                    "between20and39": 229984,
+                    "between40and59": 268487,
+                    "between60and74": 115702,
+                    "greaterthan75": 42333,
+                    "total": 1013885
+                },
+                "women": {
+                    "between0and19": 349226,
+                    "between20and39": 272316,
+                    "between40and59": 302086,
+                    "between60and74": 130879,
+                    "greaterthan75": 65461,
+                    "total": 1119968
+                }
+            },
+            {
+                "region_code": "France",
+                "region_name": "France métropolitaine et DOM",
+                "together": {
+                    "between0and19": 16352131,
+                    "between20and39": 15940519,
+                    "between40and59": 17694611,
+                    "between60and74": 10512774,
+                    "greaterthan75": 6102610,
+                    "total": 66602645
+                },
+                "men": {
+                    "between0and19": 8362047,
+                    "between20and39": 7878963,
+                    "between40and59": 8686623,
+                    "between60and74": 4972696,
+                    "greaterthan75": 2329758,
+                    "total": 32230087
+                },
+                "women": {
+                    "between0and19": 7990084,
+                    "between20and39": 8061556,
+                    "between40and59": 9007988,
+                    "between60and74": 5540078,
+                    "greaterthan75": 3772852,
+                    "total": 34372558
+                }
+            }
+        ]
+    },
+    {
+        "year": 2017,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 15616148,
+                    "between20and39": 15420035,
+                    "between40and59": 17028472,
+                    "between60and74": 10541497,
+                    "greaterthan75": 6032981,
+                    "total": 64639133
+                },
+                "men": {
+                    "between0and19": 7992828,
+                    "between20and39": 7632177,
+                    "between40and59": 8376683,
+                    "between60and74": 4980166,
+                    "greaterthan75": 2304975,
+                    "total": 31286829
+                },
+                "women": {
+                    "between0and19": 7623320,
+                    "between20and39": 7787858,
+                    "between40and59": 8651789,
+                    "between60and74": 5561331,
+                    "greaterthan75": 3728006,
+                    "total": 33352304
+                }
+            },
+            {
+                "region_code": "DOM",
+                "region_name": "DOM",
+                "together": {
+                    "between0and19": 700200,
+                    "between20and39": 496925,
+                    "between40and59": 567343,
+                    "between60and74": 258582,
+                    "greaterthan75": 112299,
+                    "total": 2135349
+                },
+                "men": {
+                    "between0and19": 353215,
+                    "between20and39": 225881,
+                    "between40and59": 265301,
+                    "between60and74": 121702,
+                    "greaterthan75": 44332,
+                    "total": 1010431
+                },
+                "women": {
+                    "between0and19": 346985,
+                    "between20and39": 271044,
+                    "between40and59": 302042,
+                    "between60and74": 136880,
+                    "greaterthan75": 67967,
+                    "total": 1124918
+                }
+            },
+            {
+                "region_code": "France",
+                "region_name": "France métropolitaine et DOM",
+                "together": {
+                    "between0and19": 16316348,
+                    "between20and39": 15916960,
+                    "between40and59": 17595815,
+                    "between60and74": 10800079,
+                    "greaterthan75": 6145280,
+                    "total": 66774482
+                },
+                "men": {
+                    "between0and19": 8346043,
+                    "between20and39": 7858058,
+                    "between40and59": 8641984,
+                    "between60and74": 5101868,
+                    "greaterthan75": 2349307,
+                    "total": 32297260
+                },
+                "women": {
+                    "between0and19": 7970305,
+                    "between20and39": 8058902,
+                    "between40and59": 8953831,
+                    "between60and74": 5698211,
+                    "greaterthan75": 3795973,
+                    "total": 34477222
+                }
+            }
+        ]
+    },
+    {
+        "year": 2018,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 15611515,
+                    "between20and39": 15406773,
+                    "between40and59": 16976999,
+                    "between60and74": 10780345,
+                    "greaterthan75": 6068405,
+                    "total": 64844037
+                },
+                "men": {
+                    "between0and19": 7990698,
+                    "between20and39": 7622581,
+                    "between40and59": 8351863,
+                    "between60and74": 5084012,
+                    "greaterthan75": 2334231,
+                    "total": 31383385
+                },
+                "women": {
+                    "between0and19": 7620817,
+                    "between20and39": 7784192,
+                    "between40and59": 8625136,
+                    "between60and74": 5696333,
+                    "greaterthan75": 3734174,
+                    "total": 33460652
+                }
+            },
+            {
+                "region_code": "DOM",
+                "region_name": "DOM",
+                "together": {
+                    "between0and19": 701536,
+                    "between20and39": 498664,
+                    "between40and59": 564910,
+                    "between60and74": 267021,
+                    "greaterthan75": 115991,
+                    "total": 2148122
+                },
+                "men": {
+                    "between0and19": 353598,
+                    "between20and39": 225865,
+                    "between40and59": 263462,
+                    "between60and74": 125537,
+                    "greaterthan75": 45911,
+                    "total": 1014373
+                },
+                "women": {
+                    "between0and19": 347938,
+                    "between20and39": 272799,
+                    "between40and59": 301448,
+                    "between60and74": 141484,
+                    "greaterthan75": 70080,
+                    "total": 1133749
+                }
+            },
+            {
+                "region_code": "France",
+                "region_name": "France métropolitaine et DOM",
+                "together": {
+                    "between0and19": 16313051,
+                    "between20and39": 15905437,
+                    "between40and59": 17541909,
+                    "between60and74": 11047366,
+                    "greaterthan75": 6184396,
+                    "total": 66992159
+                },
+                "men": {
+                    "between0and19": 8344296,
+                    "between20and39": 7848446,
+                    "between40and59": 8615325,
+                    "between60and74": 5209549,
+                    "greaterthan75": 2380142,
+                    "total": 32397758
+                },
+                "women": {
+                    "between0and19": 7968755,
+                    "between20and39": 8056991,
+                    "between40and59": 8926584,
+                    "between60and74": 5837817,
+                    "greaterthan75": 3804254,
+                    "total": 34594401
+                }
+            }
+        ]
+    },
+    {
+        "year": 2019,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 15562970,
+                    "between20and39": 15383771,
+                    "between40and59": 16909259,
+                    "between60and74": 10983623,
+                    "greaterthan75": 6148599,
+                    "total": 64988222
+                },
+                "men": {
+                    "between0and19": 7967447,
+                    "between20and39": 7606710,
+                    "between40and59": 8319531,
+                    "between60and74": 5172268,
+                    "greaterthan75": 2378667,
+                    "total": 31444623
+                },
+                "women": {
+                    "between0and19": 7595523,
+                    "between20and39": 7777061,
+                    "between40and59": 8589728,
+                    "between60and74": 5811355,
+                    "greaterthan75": 3769932,
+                    "total": 33543599
+                }
+            },
+            {
+                "region_code": "DOM",
+                "region_name": "DOM",
+                "together": {
+                    "between0and19": 699183,
+                    "between20and39": 498053,
+                    "between40and59": 561575,
+                    "between60and74": 277333,
+                    "greaterthan75": 119735,
+                    "total": 2155879
+                },
+                "men": {
+                    "between0and19": 351046,
+                    "between20and39": 225182,
+                    "between40and59": 261166,
+                    "between60and74": 130179,
+                    "greaterthan75": 47484,
+                    "total": 1015057
+                },
+                "women": {
+                    "between0and19": 348137,
+                    "between20and39": 272871,
+                    "between40and59": 300409,
+                    "between60and74": 147154,
+                    "greaterthan75": 72251,
+                    "total": 1140822
+                }
+            },
+            {
+                "region_code": "France",
+                "region_name": "France métropolitaine et DOM",
+                "together": {
+                    "between0and19": 16262153,
+                    "between20and39": 15881824,
+                    "between40and59": 17470834,
+                    "between60and74": 11260956,
+                    "greaterthan75": 6268334,
+                    "total": 67144101
+                },
+                "men": {
+                    "between0and19": 8318493,
+                    "between20and39": 7831892,
+                    "between40and59": 8580697,
+                    "between60and74": 5302447,
+                    "greaterthan75": 2426151,
+                    "total": 32459680
+                },
+                "women": {
+                    "between0and19": 7943660,
+                    "between20and39": 8049932,
+                    "between40and59": 8890137,
+                    "between60and74": 5958509,
+                    "greaterthan75": 3842183,
+                    "total": 34684421
+                }
+            }
+        ]
+    },
+    {
+        "year": 2020,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 15507149,
+                    "between20and39": 15345154,
+                    "between40and59": 16846125,
+                    "between60and74": 11191099,
+                    "greaterthan75": 6234316,
+                    "total": 65123843
+                },
+                "men": {
+                    "between0and19": 7937677,
+                    "between20and39": 7586831,
+                    "between40and59": 8286779,
+                    "between60and74": 5264018,
+                    "greaterthan75": 2425531,
+                    "total": 31500836
+                },
+                "women": {
+                    "between0and19": 7569472,
+                    "between20and39": 7758323,
+                    "between40and59": 8559346,
+                    "between60and74": 5927081,
+                    "greaterthan75": 3808785,
+                    "total": 33623007
+                }
+            },
+            {
+                "region_code": "DOM",
+                "region_name": "DOM",
+                "together": {
+                    "between0and19": 696869,
+                    "between20and39": 497078,
+                    "between40and59": 558334,
+                    "between60and74": 287258,
+                    "greaterthan75": 123859,
+                    "total": 2163398
+                },
+                "men": {
+                    "between0and19": 348846,
+                    "between20and39": 224353,
+                    "between40and59": 258315,
+                    "between60and74": 135047,
+                    "greaterthan75": 49340,
+                    "total": 1015901
+                },
+                "women": {
+                    "between0and19": 348023,
+                    "between20and39": 272725,
+                    "between40and59": 300019,
+                    "between60and74": 152211,
+                    "greaterthan75": 74519,
+                    "total": 1147497
+                }
+            },
+            {
+                "region_code": "France",
+                "region_name": "France métropolitaine et DOM",
+                "together": {
+                    "between0and19": 16204018,
+                    "between20and39": 15842232,
+                    "between40and59": 17404459,
+                    "between60and74": 11478357,
+                    "greaterthan75": 6358175,
+                    "total": 67287241
+                },
+                "men": {
+                    "between0and19": 8286523,
+                    "between20and39": 7811184,
+                    "between40and59": 8545094,
+                    "between60and74": 5399065,
+                    "greaterthan75": 2474871,
+                    "total": 32516737
+                },
+                "women": {
+                    "between0and19": 7917495,
+                    "between20and39": 8031048,
+                    "between40and59": 8859365,
+                    "between60and74": 6079292,
+                    "greaterthan75": 3883304,
+                    "total": 34770504
+                }
+            }
+        ]
+    },
+    {
+        "year": 2021,
+        "areas_population": [
+            {
+                "region_code": "Métropole",
+                "region_name": "France métropolitaine",
+                "together": {
+                    "between0and19": 15433379,
+                    "between20and39": 15308871,
+                    "between40and59": 16832159,
+                    "between60and74": 11384480,
+                    "greaterthan75": 6290954,
+                    "total": 65249843
+                },
+                "men": {
+                    "between0and19": 7897466,
+                    "between20and39": 7571931,
+                    "between40and59": 8276173,
+                    "between60and74": 5348512,
+                    "greaterthan75": 2456138,
+                    "total": 31550220
+                },
+                "women": {
+                    "between0and19": 7535913,
+                    "between20and39": 7736940,
+                    "between40and59": 8555986,
+                    "between60and74": 6035968,
+                    "greaterthan75": 3834816,
+                    "total": 33699623
+                }
+            },
+            {
+                "region_code": "DOM",
+                "region_name": "DOM",
+                "together": {
+                    "between0and19": 694576,
+                    "between20and39": 496689,
+                    "between40and59": 554453,
+                    "between60and74": 297380,
+                    "greaterthan75": 129300,
+                    "total": 2172398
+                },
+                "men": {
+                    "between0and19": 347012,
+                    "between20and39": 223303,
+                    "between40and59": 255827,
+                    "between60and74": 139509,
+                    "greaterthan75": 51700,
+                    "total": 1017351
+                },
+                "women": {
+                    "between0and19": 347564,
+                    "between20and39": 273386,
+                    "between40and59": 298626,
+                    "between60and74": 157871,
+                    "greaterthan75": 77600,
+                    "total": 1155047
+                }
+            },
+            {
+                "region_code": "France",
+                "region_name": "France métropolitaine et DOM",
+                "together": {
+                    "between0and19": 16127955,
+                    "between20and39": 15805560,
+                    "between40and59": 17386612,
+                    "between60and74": 11681860,
+                    "greaterthan75": 6420254,
+                    "total": 67422241
+                },
+                "men": {
+                    "between0and19": 8244478,
+                    "between20and39": 7795234,
+                    "between40and59": 8532000,
+                    "between60and74": 5488021,
+                    "greaterthan75": 2507838,
+                    "total": 32567571
+                },
+                "women": {
+                    "between0and19": 7883477,
+                    "between20and39": 8010326,
+                    "between40and59": 8854612,
+                    "between60and74": 6193839,
+                    "greaterthan75": 3912416,
+                    "total": 34854670
+                }
+            }
+        ]
+    }
+]
