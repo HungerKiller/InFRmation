@@ -2,17 +2,22 @@
   <nz-sider nzCollapsible nzBreakpoint="xxl" [nzCollapsedWidth]="0">
     <div class="logo"></div>
     <ul nz-menu nzTheme="dark" nzMode="inline">
-      <li nz-menu-item routerLink="/administration" routerLinkActive="active">
-        <i nz-icon nzType="table" nzTheme="outline"></i>
-        <span>Administration</span>
-      </li>
+      
       <li nz-submenu nzTitle="Administration" nzIcon="table">
         <ul>
           <li nz-menu-item routerLink="/administration/france" routerLinkActive="active">France</li>
-          <li nz-menu-item routerLink="/administration/regions" routerLinkActive="active">Regions</li>
-          <li nz-menu-item routerLink="/administration/departements" routerLinkActive="active">Départements</li>
+          <li nz-menu-item routerLink="/administration/regions" routerLinkActive="active">France->Régions</li>
+          <li nz-menu-item routerLink="/administration/departements" routerLinkActive="active">France->Départements</li>
           <li nz-menu-item routerLink="/administration/communes" routerLinkActive="active">Communes</li>
+
+          <li nz-menu-item routerLink="/administration/regions" routerLinkActive="active">Région</li>
+          <li nz-menu-item routerLink="/administration/regions" routerLinkActive="active">Région->Départements</li>
+
         </ul>
+      </li>
+      <li nz-menu-item routerLink="/reference" routerLinkActive="active">
+        <i nz-icon nzType="link" nzTheme="outline"></i>
+        <span>Référence</span>
       </li>
     </ul>
   </nz-sider>

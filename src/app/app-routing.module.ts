@@ -8,7 +8,7 @@ import { ViewFranceComponent } from './Components/view-france/view-france.compon
 
 const routes: Routes = [
   { path: '', redirectTo: '/administration', pathMatch: 'full' },
-  { path: 'administration', component: AdministrationComponent },
+  { path: 'reference', component: AdministrationComponent },
   {
     path: 'administration',
     component: AdministrationComponent, // this is the component with the <router-outlet> in the template
