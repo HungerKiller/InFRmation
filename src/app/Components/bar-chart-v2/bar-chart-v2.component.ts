@@ -34,6 +34,7 @@ export class BarChartV2Component implements OnChanges {
           data: this.data.map(v => v.year)
         },
         tooltip: {
+          formatter: '{a} <br/>{b}: {c} ({d}%)'
         },
         legend: {
           left: 'right',
