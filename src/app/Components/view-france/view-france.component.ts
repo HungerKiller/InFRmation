@@ -10,7 +10,7 @@ import { AdministrationService } from 'src/app/Services/administration.service';
 export class ViewFranceComponent implements OnInit {
 
   years: string[] = [];
-  selectedYear: string = '2021';
+  selectedYear: string = '2020';
 
   // Data of all years of all regions
   populations: Population[] = [];

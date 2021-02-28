@@ -3,45 +3,26 @@
 </nz-select>
 
 <div nz-row>
-    <div class="col1" nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="10" nzXl="10" nzXxl="10">
-        <div nz-row>
-            <div class="col1" nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="12" nzXl="12" nzXxl="12">
-                <app-pie-chart-v1 *ngIf="name_value_array" title="Population de la France par région"
-                    [data]="name_value_array"></app-pie-chart-v1>
-            </div>
-            <div class="col1" nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="12" nzXl="12" nzXxl="12">
-                <app-pie-chart-v2 *ngIf="name_value_array" title="Population de la France par région"
-                    [data]="name_value_array"></app-pie-chart-v2>
-            </div>
-            <div class="col1" nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="24" nzXl="24" nzXxl="24">
-                <app-line-chart-v1 title="Population de la France par région" [xAxis_lables]="years"
-                    [data]="year_gender_values_array"></app-line-chart-v1>
-            </div>
-        </div>
+    <div nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="10" nzXl="10" nzXxl="10">
+        <app-table-region-v1 [data]="dataOfSelectedYear">
+        </app-table-region-v1>
     </div>
-    <div class="col2" nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="10" nzXl="10" nzXxl="10">
-        <app-map-chart-region-v1 *ngIf="name_value_array" title="Régions de la France" [data]="name_value_array">
+    <div nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="14" nzXl="14" nzXxl="14">
+        <app-pie-chart-v2 title="Population {{selectedYear}}" [data]="region_population_array">
+        </app-pie-chart-v2>
+        <app-map-chart-region-v1 class="map" title="Population {{selectedYear}}" [data]="region_population_array">
         </app-map-chart-region-v1>
     </div>
-    <div class="col1" nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="4" nzXl="4" nzXxl="4">
-        <div nz-row>
-            <div class="col1" nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="24" nzXl="24" nzXxl="24">
-                <app-stacked-area-chart-v1 title="Population de la France par région" [xAxis_lables]="years"
-                    [data]="year_age_values_array"></app-stacked-area-chart-v1>
-            </div>
-        </div>
+    <div class="map" nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="24" nzXl="24" nzXxl="24">
+        <app-bar-chart-v1 title="Population {{selectedYear}}" [xAxis_lables]="region_names"
+            [data]="gender_populations_array"></app-bar-chart-v1>
     </div>
-    <div class="col2" nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="16" nzXl="16" nzXxl="16">
-        <app-bar-chart-v1 title="Population de la France par région" [xAxis_lables]="region_names"
-            [data]="type_values_array"></app-bar-chart-v1>
-    </div>
-    <div class="col2" nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="8" nzXl="8" nzXxl="8">
-        <app-bar-chart-v1 title="Population de la France par région" [xAxis_lables]="region_names"
-            [data]="type_values_array"></app-bar-chart-v1>
+    <div class="col2" nz-col nzXs="24" nzSm="24" nzMd="24" nzLg="24" nzXl="24" nzXxl="24">
+        <app-bar-chart-v1 title="Population {{selectedYear}}" [xAxis_lables]="region_names"
+            [data]="age_populations_array"></app-bar-chart-v1>
     </div>
 </div>
 
-test
 <!-- <nz-tabset>
     <nz-tab nzTitle="Map">
         <app-map-chart-region-v1 *ngIf="name_value_array" title="Régions de la France" [data]="name_value_array"></app-map-chart-region-v1>

@@ -55,7 +55,8 @@ export class MapChartRegionV1Component implements OnChanges {
         });
         this.option = {
           title: {
-            text: this.title
+            text: this.title,
+            left: 'center'
           },
           tooltip: {
             trigger: 'item',
