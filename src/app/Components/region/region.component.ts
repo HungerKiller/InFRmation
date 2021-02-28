@@ -25,17 +25,10 @@ export class RegionComponent implements OnInit {
   // Data - array of {age, populations} - for Bar
   age_populations_array: { name: string; values: number[] }[] = [];
 
-
-
-  // Data - array of year & array of {name, values} - for Stached Area, Line
-  year_gender_values_array: { name: string; values: number[] }[] = [];
-  // Data - array of year & array of {name, values} - for Stached Area
-  year_age_values_array: { name: string; values: number[] }[] = [];
-
-
-
-  genders: { label: string; value: string; }[] = [{ label: 'Ensemble', value: 'Ensemble' }, { label: 'Femmes', value: 'Femmes' }, { label: 'Hommes', value: 'Hommes' }];
-  selectedGender: string = 'Ensemble';
+  // Data - for Dynamic Bar (all years, all regions, all genders)
+  year_gender_region_populations_array: { year: string, regions: string[], menPopulation: number[], womenPopulation: number[], totalPopulation: number[] }[] = [];
+  // Data - for Dynamic Bar (all years, all regions, all ages)
+  year_age_region_populations_array: { year: string, regions: string[], menPopulation: number[], womenPopulation: number[], totalPopulation: number[] }[] = [];
 
   constructor(private administrationService: AdministrationService) { }
 
@@ -62,7 +55,7 @@ export class RegionComponent implements OnInit {
   setDisplayedDatas(): void {
     // Set data of selected year
     this.dataOfSelectedYear = this.populations.find(element => element.year == this.selectedYear)?.areas_population!;
-    
+
     // Set array of {region, population} - for Map and Pie
     this.region_names = [];
     this.region_population_array = [];
@@ -108,38 +101,29 @@ export class RegionComponent implements OnInit {
 
 
 
-    // Set year-gender-values
-    let menTotalValuesByYear: number[] = [];
-    let womenTotalValuesByYear: number[] = [];
-    this.populations.forEach(element => {
-      menTotalValuesByYear.push(element.areas_population[0].men.total);
-      womenTotalValuesByYear.push(element.areas_population[0].women.total);
+    // Set year-gender-region values - for Dynamic Bar
+    this.year_gender_region_populations_array = [];
+    this.populations.forEach(elementOneYear => {
+      let regions: string[] = [];
+      let menPopulation: number[] = [];
+      let womenPopulation: number[] = [];
+      let totalPopulation: number[] = [];
+      elementOneYear.areas_population.forEach(elementOneRegion => {
+        // Set regions of this year
+        regions.push(elementOneRegion.region_name);
+        // Set population of this year (for each region)
+        menPopulation.push(elementOneRegion.men.total);
+        womenPopulation.push(elementOneRegion.women.total);
+        totalPopulation.push(elementOneRegion.together.total);
+      });
+      this.year_gender_region_populations_array.push({ year: elementOneYear.year, regions: regions, menPopulation: menPopulation, womenPopulation: womenPopulation, totalPopulation: totalPopulation });
     });
-    this.year_gender_values_array.push({ name: "Hommes", values: menTotalValuesByYear });
-    this.year_gender_values_array.push({ name: "Femmes", values: womenTotalValuesByYear });
-    // Set year-age-values
-    let f0t19TotalValuesByYear: number[] = [];
-    let f20t39TotalValuesByYear: number[] = [];
-    let f40t59TotalValuesByYear: number[] = [];
-    let f60t74TotalValuesByYear: number[] = [];
-    let f75TotalValuesByYear: number[] = [];
-    this.populations.forEach(element => {
-      f0t19TotalValuesByYear.push(element.areas_population[0].together.between0and19);
-      f20t39TotalValuesByYear.push(element.areas_population[0].together.between20and39);
-      f40t59TotalValuesByYear.push(element.areas_population[0].together.between40and59);
-      f60t74TotalValuesByYear.push(element.areas_population[0].together.between60and74);
-      f75TotalValuesByYear.push(element.areas_population[0].together.greaterthan75);
-    });
-    this.year_age_values_array.push({ name: "0 à 19 ans", values: f0t19TotalValuesByYear });
-    this.year_age_values_array.push({ name: "20 à 39 ans", values: f20t39TotalValuesByYear });
-    this.year_age_values_array.push({ name: "40 à 59 ans", values: f40t59TotalValuesByYear });
-    this.year_age_values_array.push({ name: "60 à 74 ans", values: f60t74TotalValuesByYear });
-    this.year_age_values_array.push({ name: "75 ans et plus", values: f75TotalValuesByYear });
+
+
   }
 
   onChange(): void {
     this.setDisplayedDatas();
   }
 
-  genderChanged(): void { }
 }
