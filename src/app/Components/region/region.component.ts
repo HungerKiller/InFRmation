@@ -28,7 +28,7 @@ export class RegionComponent implements OnInit {
   // Data - for Dynamic Bar (all years, all regions, all genders)
   year_gender_region_populations_array: { year: string, regions: string[], menPopulation: number[], womenPopulation: number[], totalPopulation: number[] }[] = [];
   // Data - for Dynamic Bar (all years, all regions, all ages)
-  year_age_region_populations_array: { year: string, regions: string[], menPopulation: number[], womenPopulation: number[], totalPopulation: number[] }[] = [];
+  year_age_region_populations_array: { year: string, regions: string[], f0t19Population: number[], f20t39Population: number[], f40t59Population: number[], f60t74Population: number[], f75Population: number[], totalPopulation: number[] }[] = [];
 
   constructor(private administrationService: AdministrationService) { }
 
@@ -99,8 +99,6 @@ export class RegionComponent implements OnInit {
     this.age_populations_array.push({ name: "75 ans et plus", values: f75TotalValues });
     this.age_populations_array.push({ name: "Ensemble", values: totalValues });
 
-
-
     // Set year-gender-region values - for Dynamic Bar
     this.year_gender_region_populations_array = [];
     this.populations.forEach(elementOneYear => {
@@ -119,11 +117,32 @@ export class RegionComponent implements OnInit {
       this.year_gender_region_populations_array.push({ year: elementOneYear.year, regions: regions, menPopulation: menPopulation, womenPopulation: womenPopulation, totalPopulation: totalPopulation });
     });
 
-
+    // Set year-age-region values - for Dynamic Bar
+    this.year_age_region_populations_array = [];
+    this.populations.forEach(elementOneYear => {
+      let regions: string[] = [];
+      let f0t19Population: number[] = [];
+      let f20t39Population: number[] = [];
+      let f40t59Population: number[] = [];
+      let f60t74Population: number[] = [];
+      let f75Population: number[] = [];
+      let totalPopulation: number[] = [];
+      elementOneYear.areas_population.forEach(elementOneRegion => {
+        // Set regions of this year
+        regions.push(elementOneRegion.region_name);
+        // Set population of this year (for each region)
+        f0t19Population.push(elementOneRegion.together.between0and19);
+        f20t39Population.push(elementOneRegion.together.between20and39);
+        f40t59Population.push(elementOneRegion.together.between40and59);
+        f60t74Population.push(elementOneRegion.together.between60and74);
+        f75Population.push(elementOneRegion.together.greaterthan75);
+        totalPopulation.push(elementOneRegion.together.total);
+      });
+      this.year_age_region_populations_array.push({ year: elementOneYear.year, regions: regions, f0t19Population: f0t19Population, f20t39Population: f20t39Population, f40t59Population: f40t59Population, f60t74Population: f60t74Population, f75Population: f75Population, totalPopulation: totalPopulation });
+    });
   }
 
   onChange(): void {
     this.setDisplayedDatas();
   }
-
 }

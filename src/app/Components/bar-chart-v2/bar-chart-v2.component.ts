@@ -12,11 +12,6 @@ export class BarChartV2Component implements OnChanges {
   // Chart option
   option: any;
 
-  dataOption!: {
-    title: { text: string; };
-    series: { data: { name: string, value: number }[] }[];
-  };
-
   constructor() { }
 
   ngOnChanges(changes: SimpleChanges) {
