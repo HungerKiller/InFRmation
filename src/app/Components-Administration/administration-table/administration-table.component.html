@@ -1,1 +1,16 @@
-<p>administration-table works!</p>
+<nz-table #basicTable [nzData]="data" [nzShowSizeChanger]="true" [nzPageSize]="20"
+    [nzPageSizeOptions]="[10,20,50]" [nzShowTotal]="totalTemplate">
+    <thead>
+        <tr>
+            <th>Code</th>
+            <th>Nom</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let data of basicTable.data">
+            <td>{{data.code}}</td>
+            <td>{{data.name}}</td>
+        </tr>
+    </tbody>
+</nz-table>
+<ng-template #totalTemplate let-total> Total {{ total }} items</ng-template>
