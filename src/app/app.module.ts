@@ -21,6 +21,7 @@ import { NzDividerModule } from 'ng-zorro-antd/divider';
 import { NzSelectModule } from 'ng-zorro-antd/select';
 import { NzTabsModule } from 'ng-zorro-antd/tabs';
 
+// Data visualization
 import { BarChartV1Component } from './Components-Data-Visualization/bar-chart-v1/bar-chart-v1.component';
 import { BarChartV2Component } from './Components-Data-Visualization/bar-chart-v2/bar-chart-v2.component';
 import { BarChartV3Component } from './Components-Data-Visualization/bar-chart-v3/bar-chart-v3.component';
@@ -31,15 +32,23 @@ import { PieChartV2Component } from './Components-Data-Visualization/pie-chart-v
 import { StackedAreaChartV1Component } from './Components-Data-Visualization/stacked-area-chart-v1/stacked-area-chart-v1.component';
 import { StackedAreaChartV2Component } from './Components-Data-Visualization/stacked-area-chart-v2/stacked-area-chart-v2.component';
 import { TableRegionV1Component } from './Components-Data-Visualization/table-region-v1/table-region-v1.component';
+// Population
 import { PopulationComponent } from './Components-Population/population/population.component';
 import { PopulationFranceComponent } from './Components-Population/population-france/population-france.component';
 import { PopulationFranceRegionsComponent } from './Components-Population/population-france-regions/population-france-regions.component';
 import { PopulationFranceDepartementsComponent } from './Components-Population/population-france-departements/population-france-departements.component';
+// Administration
 import { AdministrationComponent } from './Components-Administration/administration/administration.component';
+import { AdministrationMapComponent } from './Components-Administration/administration-map/administration-map.component';
+import { AdministrationTableComponent } from './Components-Administration/administration-table/administration-table.component';
+import { AdministrationRegionsComponent } from './Components-Administration/administration-regions/administration-regions.component';
+import { AdministrationDepartementsComponent } from './Components-Administration/administration-departements/administration-departements.component';
+// GeoApi
 import { GeoApiComponent } from './Components-GeoApi/geo-api/geo-api.component';
 import { GeoApiRegionsComponent } from './Components-GeoApi/geo-api-regions/geo-api-regions.component';
 import { GeoApiDepartementsComponent } from './Components-GeoApi/geo-api-departements/geo-api-departements.component';
 import { GeoApiCommunesComponent } from './Components-GeoApi/geo-api-communes/geo-api-communes.component';
+// References
 import { ReferencesComponent } from './Components/references/references.component';
 
 registerLocaleData(fr);
@@ -65,11 +74,16 @@ registerLocaleData(fr);
     PopulationFranceDepartementsComponent,
     // Administration
     AdministrationComponent,
+    AdministrationMapComponent,
+    AdministrationTableComponent,
+    AdministrationRegionsComponent,
+    AdministrationDepartementsComponent,
     // GeoApi
     GeoApiComponent,
     GeoApiRegionsComponent,
     GeoApiDepartementsComponent,
     GeoApiCommunesComponent,
+    // References
     ReferencesComponent
   ],
   imports: [

@@ -2,11 +2,17 @@
   <nz-sider nzCollapsible nzBreakpoint="xxl" [nzCollapsedWidth]="0">
     <div class="logo"></div>
     <ul nz-menu nzTheme="dark" nzMode="inline">
-      <li nz-submenu nzTitle="Population" nzIcon="table">
+      <li nz-submenu nzTitle="Population" nzIcon="team">
         <ul>
           <li nz-menu-item routerLink="/population/france" routerLinkActive="active">France</li>
           <li nz-menu-item routerLink="/population/regions" routerLinkActive="active">France->Régions</li>
           <li nz-menu-item routerLink="/population/departements" routerLinkActive="active">France->Départements</li>
+        </ul>
+      </li>
+      <li nz-submenu nzTitle="Administration" nzIcon="block">
+        <ul>
+          <li nz-menu-item routerLink="/administration/regions" routerLinkActive="active">Régions</li>
+          <li nz-menu-item routerLink="/administration/departements" routerLinkActive="active">Départements</li>
         </ul>
       </li>
       <li nz-submenu nzTitle="Geo Api" nzIcon="api">

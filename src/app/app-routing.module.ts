@@ -6,6 +6,8 @@ import { PopulationFranceComponent } from './Components-Population/population-fr
 import { PopulationFranceRegionsComponent } from './Components-Population/population-france-regions/population-france-regions.component';
 import { PopulationFranceDepartementsComponent } from './Components-Population/population-france-departements/population-france-departements.component';
 import { AdministrationComponent } from './Components-Administration/administration/administration.component';
+import { AdministrationRegionsComponent } from './Components-Administration/administration-regions/administration-regions.component';
+import { AdministrationDepartementsComponent } from './Components-Administration/administration-departements/administration-departements.component';
 import { GeoApiComponent } from './Components-GeoApi/geo-api/geo-api.component';
 import { GeoApiRegionsComponent } from './Components-GeoApi/geo-api-regions/geo-api-regions.component';
 import { GeoApiDepartementsComponent } from './Components-GeoApi/geo-api-departements/geo-api-departements.component';
@@ -14,7 +16,7 @@ import { ReferencesComponent } from './Components/references/references.componen
 
 const routes: Routes = [
   { path: '', redirectTo: '/administration', pathMatch: 'full' },
-  { path: 'references', component: ReferencesComponent},
+  { path: 'references', component: ReferencesComponent },
   {
     path: 'population',
     component: PopulationComponent, // this is the component with the <router-outlet> in the template
@@ -30,6 +32,20 @@ const routes: Routes = [
       {
         path: 'departements',
         component: PopulationFranceDepartementsComponent
+      }
+    ]
+  },
+  {
+    path: 'administration',
+    component: AdministrationComponent,
+    children: [
+      {
+        path: 'regions',
+        component: AdministrationRegionsComponent
+      },
+      {
+        path: 'departements',
+        component: AdministrationDepartementsComponent
       }
     ]
   },

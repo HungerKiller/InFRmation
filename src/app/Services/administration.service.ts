@@ -55,6 +55,11 @@ export class AdministrationService {
     return this.http.get<any>(`/assets/geoRegions.json`);
   }
 
+  // Get geo datas
+  getGeoJson(filePath: string):Observable<any>{
+    return this.http.get<any>(filePath);
+  }
+
   // Get population regions
   getRegionsPopulation():Observable<Population[]>{
     return this.http.get<Population[]>(`/assets/populationRegions.json`);
