@@ -3,11 +3,11 @@ import { Population, PopulationOfArea } from 'src/app/Models/Population';
 import { AdministrationService } from 'src/app/Services/administration.service';
 
 @Component({
-  selector: 'app-view-france',
-  templateUrl: './view-france.component.html',
-  styleUrls: ['./view-france.component.scss']
+  selector: 'app-population-france',
+  templateUrl: './population-france.component.html',
+  styleUrls: ['./population-france.component.scss']
 })
-export class ViewFranceComponent implements OnInit {
+export class PopulationFranceComponent implements OnInit {
 
   years: string[] = [];
   selectedYear: string = '2020';

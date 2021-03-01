@@ -1,30 +1,30 @@
 import { Component, OnInit } from '@angular/core';
-import { Commune } from 'src/app/Models/Commune';
+import { Departement } from 'src/app/Models/Departement';
 import { AdministrationService } from 'src/app/Services/administration.service';
 
 @Component({
-  selector: 'app-commune',
-  templateUrl: './commune.component.html',
-  styleUrls: ['./commune.component.scss']
+  selector: 'app-geo-api-departements',
+  templateUrl: './geo-api-departements.component.html',
+  styleUrls: ['./geo-api-departements.component.scss']
 })
-export class CommuneComponent implements OnInit {
+export class GeoApiDepartementsComponent implements OnInit {
 
-  communes: Commune[] = [];
+  departements: Departement[] = [];
   loading: boolean = false;
 
   constructor(private administrationService: AdministrationService) { }
 
   ngOnInit(): void {
-    this.getCommunes();
+    this.getDepartements();
   }
 
-  getCommunes(): void {
+  getDepartements(): void {
     this.loading = true;
-    this.administrationService.getCommunes()
+    this.administrationService.getDepartements()
       .subscribe({
         next: data => {
           this.loading = false;
-          this.communes = data;
+          this.departements = data;
         },
         error: error => {
           console.log("error", error.error);

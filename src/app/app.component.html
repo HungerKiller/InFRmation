@@ -2,22 +2,23 @@
   <nz-sider nzCollapsible nzBreakpoint="xxl" [nzCollapsedWidth]="0">
     <div class="logo"></div>
     <ul nz-menu nzTheme="dark" nzMode="inline">
-      
-      <li nz-submenu nzTitle="Administration" nzIcon="table">
+      <li nz-submenu nzTitle="Population" nzIcon="table">
         <ul>
-          <li nz-menu-item routerLink="/administration/france" routerLinkActive="active">France</li>
-          <li nz-menu-item routerLink="/administration/regions" routerLinkActive="active">France->Régions</li>
-          <li nz-menu-item routerLink="/administration/departements" routerLinkActive="active">France->Départements</li>
-          <li nz-menu-item routerLink="/administration/communes" routerLinkActive="active">Communes</li>
-
-          <li nz-menu-item routerLink="/administration/regions" routerLinkActive="active">Région</li>
-          <li nz-menu-item routerLink="/administration/regions" routerLinkActive="active">Région->Départements</li>
-
+          <li nz-menu-item routerLink="/population/france" routerLinkActive="active">France</li>
+          <li nz-menu-item routerLink="/population/regions" routerLinkActive="active">France->Régions</li>
+          <li nz-menu-item routerLink="/population/departements" routerLinkActive="active">France->Départements</li>
         </ul>
       </li>
-      <li nz-menu-item routerLink="/reference" routerLinkActive="active">
+      <li nz-submenu nzTitle="Geo Api" nzIcon="api">
+        <ul>
+          <li nz-menu-item routerLink="/geoapi/regions" routerLinkActive="active">Régions</li>
+          <li nz-menu-item routerLink="/geoapi/departements" routerLinkActive="active">Départements</li>
+          <li nz-menu-item routerLink="/geoapi/communes" routerLinkActive="active">Communes</li>
+        </ul>
+      </li>
+      <li nz-menu-item routerLink="/references" routerLinkActive="active">
         <i nz-icon nzType="link" nzTheme="outline"></i>
-        <span>Référence</span>
+        <span>Références</span>
       </li>
     </ul>
   </nz-sider>

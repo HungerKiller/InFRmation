@@ -3,11 +3,11 @@ import { AdministrationService } from 'src/app/Services/administration.service';
 import { Population, PopulationOfArea } from 'src/app/Models/Population';
 
 @Component({
-  selector: 'app-region',
-  templateUrl: './region.component.html',
-  styleUrls: ['./region.component.scss']
+  selector: 'app-population-france-regions',
+  templateUrl: './population-france-regions.component.html',
+  styleUrls: ['./population-france-regions.component.scss']
 })
-export class RegionComponent implements OnInit {
+export class PopulationFranceRegionsComponent implements OnInit {
 
   region_names: string[] = [];
   years: string[] = [];

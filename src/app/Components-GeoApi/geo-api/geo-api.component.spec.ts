@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DepartementComponent } from './departement.component';
+import { GeoApiComponent } from './geo-api.component';
 
-describe('DepartementComponent', () => {
-  let component: DepartementComponent;
-  let fixture: ComponentFixture<DepartementComponent>;
+describe('GeoApiComponent', () => {
+  let component: GeoApiComponent;
+  let fixture: ComponentFixture<GeoApiComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ DepartementComponent ]
+      declarations: [ GeoApiComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DepartementComponent);
+    fixture = TestBed.createComponent(GeoApiComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,15 +1,15 @@
 import { Component, OnInit } from '@angular/core';
-import { Departement } from 'src/app/Models/Departement';
+import { Region } from 'src/app/Models/Region';
 import { AdministrationService } from 'src/app/Services/administration.service';
 
 @Component({
-  selector: 'app-departement',
-  templateUrl: './departement.component.html',
-  styleUrls: ['./departement.component.scss']
+  selector: 'app-geo-api-regions',
+  templateUrl: './geo-api-regions.component.html',
+  styleUrls: ['./geo-api-regions.component.scss']
 })
-export class DepartementComponent implements OnInit {
+export class GeoApiRegionsComponent implements OnInit {
 
-  departements: Departement[] = [];
+  regions: Region[] = [];
   loading: boolean = false;
 
   constructor(private administrationService: AdministrationService) { }
@@ -20,11 +20,11 @@ export class DepartementComponent implements OnInit {
 
   getDepartements(): void {
     this.loading = true;
-    this.administrationService.getDepartements()
+    this.administrationService.getRegions()
       .subscribe({
         next: data => {
           this.loading = false;
-          this.departements = data;
+          this.regions = data;
         },
         error: error => {
           console.log("error", error.error);

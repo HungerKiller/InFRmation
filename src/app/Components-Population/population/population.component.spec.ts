@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CommuneComponent } from './commune.component';
+import { PopulationComponent } from './population.component';
 
-describe('CommuneComponent', () => {
-  let component: CommuneComponent;
-  let fixture: ComponentFixture<CommuneComponent>;
+describe('PopulationComponent', () => {
+  let component: PopulationComponent;
+  let fixture: ComponentFixture<PopulationComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CommuneComponent ]
+      declarations: [ PopulationComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CommuneComponent);
+    fixture = TestBed.createComponent(PopulationComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

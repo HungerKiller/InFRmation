@@ -1,33 +1,53 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { AdministrationComponent } from './Components/administration/administration.component';
-import { CommuneComponent } from './Components/commune/commune.component';
-import { DepartementComponent } from './Components/departement/departement.component';
-import { RegionComponent } from './Components/region/region.component';
-import { ViewFranceComponent } from './Components/view-france/view-france.component';
+
+import { PopulationComponent } from './Components-Population/population/population.component';
+import { PopulationFranceComponent } from './Components-Population/population-france/population-france.component';
+import { PopulationFranceRegionsComponent } from './Components-Population/population-france-regions/population-france-regions.component';
+import { PopulationFranceDepartementsComponent } from './Components-Population/population-france-departements/population-france-departements.component';
+import { AdministrationComponent } from './Components-Administration/administration/administration.component';
+import { GeoApiComponent } from './Components-GeoApi/geo-api/geo-api.component';
+import { GeoApiRegionsComponent } from './Components-GeoApi/geo-api-regions/geo-api-regions.component';
+import { GeoApiDepartementsComponent } from './Components-GeoApi/geo-api-departements/geo-api-departements.component';
+import { GeoApiCommunesComponent } from './Components-GeoApi/geo-api-communes/geo-api-communes.component';
+import { ReferencesComponent } from './Components/references/references.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/administration', pathMatch: 'full' },
-  { path: 'reference', component: AdministrationComponent },
+  { path: 'references', component: ReferencesComponent},
   {
-    path: 'administration',
-    component: AdministrationComponent, // this is the component with the <router-outlet> in the template
+    path: 'population',
+    component: PopulationComponent, // this is the component with the <router-outlet> in the template
     children: [
       {
         path: 'france', // child route path
-        component: ViewFranceComponent // child route component that the router renders
+        component: PopulationFranceComponent // child route component that the router renders
       },
       {
         path: 'regions',
-        component: RegionComponent
+        component: PopulationFranceRegionsComponent
       },
       {
         path: 'departements',
-        component: DepartementComponent
+        component: PopulationFranceDepartementsComponent
+      }
+    ]
+  },
+  {
+    path: 'geoapi',
+    component: GeoApiComponent,
+    children: [
+      {
+        path: 'regions',
+        component: GeoApiRegionsComponent
+      },
+      {
+        path: 'departements',
+        component: GeoApiDepartementsComponent
       },
       {
         path: 'communes',
-        component: CommuneComponent
+        component: GeoApiCommunesComponent
       }
     ]
   }

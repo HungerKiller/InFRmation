@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RadarChartV1Component } from './radar-chart-v1.component';
+import { GeoApiRegionsComponent } from './geo-api-regions.component';
 
-describe('RadarChartV1Component', () => {
-  let component: RadarChartV1Component;
-  let fixture: ComponentFixture<RadarChartV1Component>;
+describe('GeoApiRegionsComponent', () => {
+  let component: GeoApiRegionsComponent;
+  let fixture: ComponentFixture<GeoApiRegionsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ RadarChartV1Component ]
+      declarations: [ GeoApiRegionsComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(RadarChartV1Component);
+    fixture = TestBed.createComponent(GeoApiRegionsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
