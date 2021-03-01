@@ -1,5 +1,5 @@
-<nz-table #basicTable [nzData]="data" [nzShowSizeChanger]="true" [nzPageSize]="20"
-    [nzPageSizeOptions]="[10,20,50]" [nzShowTotal]="totalTemplate">
+<nz-table #basicTable [nzData]="data" [nzShowSizeChanger]="true" [nzPageSize]="10"
+    [nzPageSizeOptions]="[10,20,50]">
     <thead>
         <tr>
             <th>Code</th>
@@ -13,4 +13,3 @@
         </tr>
     </tbody>
 </nz-table>
-<ng-template #totalTemplate let-total> Total {{ total }} items</ng-template>

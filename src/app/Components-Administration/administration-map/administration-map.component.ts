@@ -20,7 +20,8 @@ export class AdministrationMapComponent implements OnChanges {
   }
 
   ngOnChanges(changes: SimpleChanges) {
-    this.buildMap();
+    if (this.data != null && this.data != undefined)
+      this.buildMap();
   }
 
   buildMap(): void {
