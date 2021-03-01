@@ -15,7 +15,7 @@ import { GeoApiCommunesComponent } from './Components-GeoApi/geo-api-communes/ge
 import { ReferencesComponent } from './Components/references/references.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/administration', pathMatch: 'full' },
+  { path: '', redirectTo: '/population/regions', pathMatch: 'full' },
   { path: 'references', component: ReferencesComponent },
   {
     path: 'population',
